@@ -9,8 +9,8 @@
                 <h4>Agissons Ensemble !</h4>
                 <p>Nous pouvons agir ensemble</p>
               </div>
-              <a class="waves-effect waves-light btn-large">Rejoins la team</a>
-              <a class="waves-effect waves-light btn-large">Fiche Atelier</a>
+              <a href="join_team.php" class="waves-effect waves-light btn-large">Rejoins la team</a>
+              <a href="user.php" class="waves-effect waves-light btn-large">Fiche Atelier</a>
             </div>
         <li><a href="badges.html">Connexion</a></li>
       </ul>

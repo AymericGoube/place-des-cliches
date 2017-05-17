@@ -19,7 +19,8 @@
 
 <body>
 
- <?php require "views/header.php" ?>
+ <?php require 'model/database.php'; ?>
+ <?php require "views/header.php"; ?>
 
 <!-- Création du Header -->
 <div class="parallax-container">
