@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 17, 2017 at 04:39 PM
+-- Generation Time: May 17, 2017 at 05:03 PM
 -- Server version: 5.7.18-0ubuntu0.17.04.1
 -- PHP Version: 7.0.18-0ubuntu0.17.04.1
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `place_des_cliches`
 --
+CREATE DATABASE IF NOT EXISTS `place_des_cliches` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `place_des_cliches`;
 
 -- --------------------------------------------------------
 
