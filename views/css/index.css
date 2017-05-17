@@ -83,3 +83,8 @@ background-color : rgba(200,200,200,0.2)
   font-size: 36px;
   padding-left: 25px;
 }
+
+
+.modal-content {
+    color: black;
+}

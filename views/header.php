@@ -6,13 +6,12 @@
           <li><a href="#modal1">Agissons ensemble</a></li>
             <div id="modal1" class="modal">
               <div class="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
+                <h4>Agissons Ensemble !</h4>
+                <p>Nous pouvons agir ensemble</p>
               </div>
-              <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-              </div>
-</div>
+              <a class="waves-effect waves-light btn-large">Rejoins la team</a>
+              <a class="waves-effect waves-light btn-large">Fiche Atelier</a>
+            </div>
         <li><a href="badges.html">Connexion</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">

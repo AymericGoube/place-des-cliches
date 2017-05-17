@@ -133,8 +133,9 @@
 
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="views/js/materialize.min.js"></script>
+<script type="text/javascript" src="views/lib/materialize/materialize.min.js"></script>
 <script type="text/javascript" src="views/js/parallax.js"></script>
 <script type="text/javascript" src="views/js/app.js"></script>
+<script type="text/javascript" src="views/js/modal.js"></script>
 </body>
 </html>
