@@ -2,7 +2,15 @@
   <div class="nav-wrapper nav1">
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li> <a href=""> agissons ensemble </a> </li>
+      <li> <a href="#modal1"> agissons ensemble </a> </li>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+      </div>
+      
       <li> <a href=""> presse </a> </li>
     </ul>
 
