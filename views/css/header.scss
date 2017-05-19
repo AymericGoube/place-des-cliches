@@ -1,0 +1,36 @@
+.nav1 {
+	background-color: #FFC0ED;
+
+	a {
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+
+	.btn {
+		background-color: #558ED5;
+	}
+}
+
+.nav2 {
+	background-color: #fff;
+	border-top: 2px solid #B2B2B2;
+
+	.navmid {
+		display:flex;
+		justify-content:center;
+	}
+
+	a {
+		color: #000;
+		font-size: 16px;
+		text-transform: uppercase;
+	}
+}
+
+.logo {
+	background-image: url("../img/slogan.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 280px;
+}
