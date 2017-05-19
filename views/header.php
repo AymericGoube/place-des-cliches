@@ -1,6 +1,3 @@
-<link rel="stylesheet" type="text/css" href="css/header.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-
 <nav>
   <div class="nav-wrapper nav1">
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -44,8 +41,3 @@
     </ul>
   </div>
 </nav>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-<script src="js/dropdown.js"></script>
-<script src="js/side.js"></script>
