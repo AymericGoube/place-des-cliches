@@ -4,13 +4,17 @@
     <ul id="nav-mobile" class="left hide-on-med-and-down">
       <li> <a href="#modal1"> agissons ensemble </a> </li>
       <!-- Modal Structure -->
-      <div id="modal1" class="modal">
+      <div id="modal1" class="container modal">
         <div class="modal-content">
-          <h4>Modal Header</h4>
-          <p>A bunch of text</p>
+          <img class="logoModal" src="views/img/logo.png" width="100px" alt="">
+          <h1 class="titleModal">Agissons ensemble</h1>
+          <div class="row btn-connect">
+            <a class="col md6 waves-effect waves-light btn">Devenir benevole</a>
+            <a class="col md6 waves-effect waves-light btn">Acceder aux contenus exclusifs</a>
+          </div>
         </div>
       </div>
-      
+
       <li> <a href=""> presse </a> </li>
     </ul>
 

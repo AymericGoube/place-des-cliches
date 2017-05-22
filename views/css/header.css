@@ -2,7 +2,8 @@
   background-color: #FFC0ED; }
   .nav1 a {
     font-size: 16px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif; }
   .nav1 .btn {
     background-color: #558ED5; }
 
@@ -15,7 +16,8 @@
   .nav2 a {
     color: #000;
     font-size: 16px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif; }
 
 .logo {
   background-image: url("../img/slogan.png");
@@ -23,5 +25,23 @@
   background-size: contain;
   background-position: center;
   height: 280px; }
+
+.modal {
+  overflow-y: hidden !important;
+  background-color: #65A0DC; }
+
+.titleModal {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  color: white; }
+
+.logoModal {
+  text-align: center;
+  margin-left: 17em; }
+
+.btn-connect {
+  padding-left: 50px; }
 
 /*# sourceMappingURL=header.css.map */
