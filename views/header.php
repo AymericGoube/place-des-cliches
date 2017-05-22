@@ -29,8 +29,8 @@
           <li> <a href=""> Utilisateur </a> </li>
         </ul>
       <li class="tab"> <a href=""> accueil </a> </li>
-      <li class="tab"> <a href=""> l'association </a> </li>
-      <li class="tab"> <a href=""> notre équipe </a> </li>
+      <li class="tab"> <a href=".history" class="js-scrollTo"> l'association </a> </li>
+      <li class="tab"> <a href=".partieEquipe" class="js-scrollTo"> notre équipe </a> </li>
       <li class="tab"> <a href=""> actualités </a> </li>
     </ul>
 
@@ -43,9 +43,9 @@
   <div class="nav-wrapper nav2">
     <ul id="nav-mobile" class="hide-on-med-and-down navmid">
       <li> <a href=""> accueil </a> </li>
-      <li> <a href=""> l'association </a> </li>
-      <li> <a href=""> notre équipe </a> </li>
-      <li> <a href=""> actualités </a> </li>
+      <li class="tab"> <a href=".history" class="js-scrollTo"> l'association </a> </li>
+      <li class="tab"> <a href=".partieEquipe" class="js-scrollTo"> notre équipe </a> </li>
+      <li class="tab"> <a href=""> actualités </a> </li>
     </ul>
   </div>
 </nav>
