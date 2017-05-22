@@ -20,5 +20,38 @@
         </div>
         <h2 class="titlehistory">Merci pour votre engagement !</h2>
     </div>
-    
+    <div class="row">
+        <div class="col s3 templateCarte">
+      <div class="col s12 photo1">
+      </div>
+      <div class="texte">
+      <h6>lorem Ipsum</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+          </div>
+          <div class="col s3 templateCarte">
+      <div class="col s12 photo2">
+      </div>
+      <div class="texte">
+      <h6>lorem Ipsum</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+      </div>
+      <div class="col s3 templateCarte">
+      <div class="col s12 photo3">
+      </div>
+      <div class="texte">
+      <h6>lorem Ipsum</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+      </div>
+      <div class="col s3 templateCarte">
+      <div class="col s12 photo4">
+      </div>
+      <div class="texte">
+      <h6>lorem Ipsum</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+      </div>
+    </div>
 </main>
