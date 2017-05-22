@@ -1,6 +1,6 @@
 footer {
   font-family: 'Raleway', sans-serif;
-  height: 40em;
+  height: 45em;
   width: 100%;
   background-color: #FFC0ED;
   font-weight: normal;
@@ -39,29 +39,23 @@ footer {
       transition: background-color 0.5s;
       color: white; }
   footer .instagramfooter .img1 {
-    position: relative;
     height: 200px;
     background-image: url(../img/classe.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
-    transition: opacity .25s ease-in-out; }
-  footer .instagramfooter .img1:hover > .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #000;
-    opacity: 0.5;
-    padding: 0;
-    margin: 0; }
+    transition: filter 0.3s; }
+  footer .instagramfooter .img1:hover {
+    filter: brightness(30%); }
   footer img {
     height: 150px;
     width: 150px;
     padding-bottom: 3em; }
   footer .copyright {
     text-align: center;
-    border-top: 1px solid #eee; }
+    border-top: 1px solid #eee;
+    padding-top: 30px !important; }
     footer .copyright span {
       color: #00ACED; }
 
