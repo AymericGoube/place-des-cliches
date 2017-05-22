@@ -7,6 +7,9 @@ $color2 : #FECDF0;
 .carousel {
     height: 400px!important;
 }
+.history{
+  border-bottom: #65A0DC 1px solid;
+}
 
 .titlehistory {
     font-family: $font;
@@ -30,37 +33,34 @@ $color2 : #FECDF0;
     color: $color2;
     font-weight: 800;
 }
-.photo1{
+
+.carte{
   height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#photo1{
   background-image: url("../img/photo1Cé.JPG");
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
-.photo2{
-  height: 300px;
+#photo2{
   background-image: url("../img/photoFa.jpg");
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
-.photo3{
-  height: 300px;
+#photo3{
   background-image: url("../img/photoFat.jpg");
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
-.photo4{
-  height: 300px;
+#photo4{
   background-image: url("../img/photoHe.jpg");
-  background-size: cover;
-  background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+}
+#photo5{
+  background-image: url("../img/photoSo.jpg");
+}
+#photo6{
+  background-image: url("../img/photoSa.jpg");
+}
+#photo7{
+  background-image: url("../img/photoSam.jpg");
 }
 
 .texte{
