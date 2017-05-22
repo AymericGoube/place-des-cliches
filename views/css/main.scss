@@ -30,3 +30,23 @@ $color2 : #FECDF0;
     color: $color2;
     font-weight: 800;
 }
+
+.collapsible {
+
+    .collapsible-header {
+        background-color: $color1;
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-decoration: underline;
+    }
+}

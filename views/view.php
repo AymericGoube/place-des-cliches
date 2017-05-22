@@ -26,6 +26,6 @@
 	<script src="views/js/modal.js"></script>
 	<script src="js/scrollspy.js"></script>
 	<script src="views/js/carrousel.js"></script>
-
+	<script type="views/js/accordion.js"></script>
 </body>
 </html>
