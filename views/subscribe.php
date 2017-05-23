@@ -1,8 +1,7 @@
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-<link rel="stylesheet" type="text/css" href="css/subscribe.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 
 <div class="row">
-	<form class="col s3">
+	<form class="col s3" method="post" action="">
 		<div class="row">
 			<div class="input-field col s12">
 				<label for="lastname"> Nom : </label>
@@ -26,7 +25,7 @@
 
 			<div class="select-field col s12">
 				<label for="status">Je</label>
-				<select multiple required name="status" id="status" class="validate">
+				<select required name="status" id="status" class="validate">
 					<optgroup label="Travaille dans un établissement scolaire">
 						<option value="primaire"> Primaire </option>
 						<option value="college"> Collège </option>
@@ -40,9 +39,11 @@
 						<option value="student"> Etablissement du supérieur </option>
 					</optgroup>
 
-					<option value="young"> Travaille dans une structure jeunesse (mission locale, MJC, maison de quartier…) </option>
-					<option value="association"> Travaille pour une association </option>
-					<option value="other"> Autre  </option>
+					<optgroup label="Autre">
+						<option value="young"> Travaille dans une structure jeunesse (mission locale, MJC, maison de quartier…) </option>
+						<option value="association"> Travaille pour une association </option>
+						<option value="other"> Autre  </option>
+					</optgroup>
 				</select>
 			</div>
 
