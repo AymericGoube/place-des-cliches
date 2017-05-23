@@ -18,7 +18,7 @@
                     pour parler de ces stéréotypes et amener les participants à les remettre en question.
                 </p>
         </div>
-            
+
         <h2 class="titlehistory">Merci pour votre engagement !</h2>
 
         <ul class="collapsible" data-collapsible="accordion">
@@ -83,68 +83,63 @@
             </li>
         </ul>
     </div>
-    
+
     <div class="partieEquipe">
             <p class="titlehistory">Voici l'équipe !</p>
-        <div class="row">
-            <div class="col s3 templateCarte">
-                <div class="col s12 carte" id="photo1">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-            </div>
-            <div class="col s3 templateCarte">
-                <div class="col s12 carte" id="photo2">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-            </div>
-            <div class="col s3 templateCarte">
-                <div class="col s12 carte" id="photo3">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-            </div>
-            <div class="col s3 templateCarte">
-                <div class="col s12 carte" id="photo4">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-            </div>
-            </div>
-<div class="row">
-            <div class="col s3 offset-s1 templateCarte">
-                <div class="col s12 carte" id="photo5">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-            </div>
-            <div class="col s3 templateCarte">
-                <div class="col s12 carte" id="photo6">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-            </div>
-            <div class="col s3 templateCarte">
-                <div class="col s12 carte" id="photo7">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-                </div>
-            </div>
-        </div>
-            </div>
+        <div class="row" >
+
+            <div class="offset-m2 col m2 card">
+       <div class="card-image waves-effect waves-block waves-light">
+         <img class="activator" src="views/img/photoFa.jpg">
+       </div>
+       <div class="card-content">
+         <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+         <p><a href="#">This is a link</a></p>
+       </div>
+       <div class="card-reveal">
+         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+         <p>Here is some more information about this product that is only revealed once clicked on.</p>
+       </div>
+     </div>
+     <div class="col m2 card">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="views/img/photoSam.jpg">
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+     <p><a href="#">This is a link</a></p>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+     <p>Here is some more information about this product that is only revealed once clicked on.</p>
+   </div>
+ </div>
+ <div class="col m2 card">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="views/img/photoSa.jpg">
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+     <p><a href="#">This is a link</a></p>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+     <p>Here is some more information about this product that is only revealed once clicked on.</p>
+   </div>
+ </div>
+ <div class="col m2 card">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="views/img/photoHe.jpg">
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+     <p><a href="#">This is a link</a></p>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+     <p>Here is some more information about this product that is only revealed once clicked on.</p>
+   </div>
+ </div>
+   </div>
+
     </main>

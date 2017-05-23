@@ -31,7 +31,7 @@ Les deux hommes entourent David et le conduisent à la voiture, un Espace, garé
         </div></a>
       </div>
     </div>
-    <div class="row">
+    <div class="row no-margin">
 
     <div class="col s2 offset-s5">
 

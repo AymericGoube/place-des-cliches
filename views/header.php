@@ -1,29 +1,51 @@
-<nav>
-  <div class="nav-wrapper nav1">
+<nav ng-controller="dropCtrl">
+  <div class="nav-wrapper nav1" >
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li> <a href="#modal1"> agissons ensemble </a> </li>
-      <!-- Modal Structure -->
+      <li> <a href="#modal1"> DEVENIR BENEVOLE </a> </li>
+      <!-- Modal contact -->
       <div id="modal1" class="container modal">
         <div class="modal-content">
           <img class="logoModal" src="views/img/logo.png" width="100px" alt="">
           <h1 class="titleModal">Agissons ensemble</h1>
-          <div class="row btn-connect">
-            <a class="col md6 waves-effect waves-light btn">Devenir benevole</a>
-            <a class="col md6 waves-effect waves-light btn">Acceder aux contenus exclusifs</a>
-          </div>
+
+
         </div>
+        
       </div>
 
       <li> <a href=""> presse </a> </li>
     </ul>
 
+
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li> <a href="" class="dropdown-button btn" data-activates="login"> connexion </a> </li>
+      <li> <a href="#modal2" class="dropdown-btn btn" > S'inscrire </a> </li>
+      <li> <a href="" class="dropdown-btn btn" ng-click="ShowHide()"> Se connecter </a> </li>
     </ul>
-      <ul id="login" class="dropdown-content">
-          <li> <a href=""> Utilisateur </a> </li>
-      </ul>
+    <!-- Modal sinscrire -->
+    <div id="modal2" class="modal">
+    <div class="modal-content">
+      <img class="logoModal" src="views/img/logo.png" width="100px" alt="">
+      <h1 class="titleModal">Agissons ensemble</h1>
+    </div>
+
+
+    <div class="dropdown" ng-show="IsVisible">
+      <form class="col s3">
+        <div class="btn-drop input-field">
+          <label for="identifiant">Votre identifiant</label>
+          <input class="btn-connect" type="text" name="identifiant" value="">
+        </div>
+
+        <div class="btn-drop input-field">
+          <label for="password">Votre mot de passe</label>
+          <input class="btn-connect" type="text" name="password" value="">
+        </div>
+
+      </form>
+
+    </div>
+
 
     <ul class="side-nav" id="mobile-demo">
       <li> <a href=""> agissons ensemble </a> </li>
