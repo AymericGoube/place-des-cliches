@@ -1,4 +1,12 @@
-@charset "UTF-8";
+.btnAbsolute {
+  position: absolute;
+  left: 95%;
+  top: 70%;
+  position: fixed; }
+
+.fa-arrow-circle-o-up {
+  color: #65A0DC; }
+
 .carousel {
   height: 400px !important; }
 
@@ -24,6 +32,15 @@
   color: #FECDF0;
   font-weight: 800; }
 
+.rowEquipe {
+  display: flex;
+  justify-content: space-around !important; }
+
+.templateCarte {
+  width: 13em !important;
+  display: flex;
+  flex-direction: column; }
+
 .collapsible .collapsible-header {
   background-color: #65A0DC;
   color: #fff;
@@ -36,50 +53,6 @@
   font-size: 3rem;
   text-decoration: underline; }
 
-.carte {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-   }
 
-.card img {
-  height: 8%;
-}
-
-#photo1 {
-  background-image: url("../img/photo1Cé.JPG"); }
-
-#photo2 {
-  background-image: url("../img/photoFa.jpg"); }
-
-#photo3 {
-  background-image: url("../img/photoFat.jpg"); }
-
-#photo4 {
-  background-image: url("../img/photoHe.jpg"); }
-
-#photo5 {
-  background-image: url("../img/photoSo.jpg"); }
-
-#photo6 {
-  background-image: url("../img/photoSa.jpg"); }
-
-#photo7 {
-  background-image: url("../img/photoSam.jpg"); }
-
-.texte {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border-bottom: #65A0DC 1px solid;
-  border-right: #65A0DC 1px solid;
-  border-left: #65A0DC 1px solid;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 10px 10px 5px #656565; }
-  .texte h6 {
-    font-weight: bolder;
-    font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */

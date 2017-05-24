@@ -1,12 +1,14 @@
 <main>
-    <div class="carousel carousel-slider center" data-indicators="true">
-        <a class="carousel-item" href="#one!"><img src="views/img/ami.png"></a>
-        <a class="carousel-item" href="#two!"><img src="views/img/ami.png"></a>
-        <a class="carousel-item" href="#three!"><img src="views/img/ami.png"></a>
-        <a class="carousel-item" href="#four!"><img src="views/img/ami.png"></a>
-    </div>
+  <a href=".nav1" class="js-scrollTo btnAbsolute"><i class="fa fa-arrow-circle-o-up fa-3x" aria-hidden="true"></i>
+  </a>
+  <div class="carousel carousel-slider center" data-indicators="true">
+    <a class="carousel-item" href="#one!"><img src="views/img/ami.png"></a>
+    <a class="carousel-item" href="#two!"><img src="views/img/ami.png"></a>
+    <a class="carousel-item" href="#three!"><img src="views/img/ami.png"></a>
+    <a class="carousel-item" href="#four!"><img src="views/img/ami.png"></a>
+  </div>
 
-    <div class="container history">
+<div class="container history">
         <h1 class="titlehistory">L'ENGAGEMENT À PORTÉE DE CLICS !</h1>
         <div class="bilan">
             <p>Il y a plein de <span class="bilanstyle1">stéréotypes de genre</span> qui circulent au quotidien (films, les séries, les
@@ -86,60 +88,4 @@
 
     <div class="partieEquipe">
             <p class="titlehistory">Voici l'équipe !</p>
-        <div class="row" >
 
-            <div class="offset-m2 col m2 card">
-       <div class="card-image waves-effect waves-block waves-light">
-         <img class="activator" src="views/img/photoFa.jpg">
-       </div>
-       <div class="card-content">
-         <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-         <p><a href="#">This is a link</a></p>
-       </div>
-       <div class="card-reveal">
-         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-         <p>Here is some more information about this product that is only revealed once clicked on.</p>
-       </div>
-     </div>
-     <div class="col m2 card">
-   <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="views/img/photoSam.jpg">
-   </div>
-   <div class="card-content">
-     <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-     <p><a href="#">This is a link</a></p>
-   </div>
-   <div class="card-reveal">
-     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-     <p>Here is some more information about this product that is only revealed once clicked on.</p>
-   </div>
- </div>
- <div class="col m2 card">
-   <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="views/img/photoSa.jpg">
-   </div>
-   <div class="card-content">
-     <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-     <p><a href="#">This is a link</a></p>
-   </div>
-   <div class="card-reveal">
-     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-     <p>Here is some more information about this product that is only revealed once clicked on.</p>
-   </div>
- </div>
- <div class="col m2 card">
-   <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="views/img/photoHe.jpg">
-   </div>
-   <div class="card-content">
-     <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-     <p><a href="#">This is a link</a></p>
-   </div>
-   <div class="card-reveal">
-     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-     <p>Here is some more information about this product that is only revealed once clicked on.</p>
-   </div>
- </div>
-   </div>
-
-    </main>
