@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .btnAbsolute {
   position: absolute;
   left: 95%;
@@ -33,7 +32,6 @@
   color: #FECDF0;
   font-weight: 800; }
 
-
 .rowEquipe {
   display: flex;
   justify-content: space-around !important; }
@@ -63,25 +61,25 @@
   border-radius: 50%; }
 
 #photo1 {
-  background-image: url("../img/photo1Cé.JPG"); }
+  background-image: url("../img/Cecile.JPG"); }
 
 #photo2 {
-  background-image: url("../img/photoFa.jpg"); }
+  background-image: url("../img/Fania.jpg"); }
 
 #photo3 {
-  background-image: url("../img/photoFat.jpg"); }
+  background-image: url("../img/Fatime.jpg"); }
 
 #photo4 {
-  background-image: url("../img/photoHe.jpg"); }
+  background-image: url("../img/Helene.jpg"); }
 
 #photo5 {
-  background-image: url("../img/photoSo.jpg"); }
+  background-image: url("../img/Solange.jpg"); }
 
 #photo6 {
-  background-image: url("../img/photoSa.jpg"); }
+  background-image: url("../img/Sandra.jpg"); }
 
 #photo7 {
-  background-image: url("../img/photoSam.jpg"); }
+  background-image: url("../img/Samantha.jpg"); }
 
 .texte {
   display: flex;
