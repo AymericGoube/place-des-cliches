@@ -1,9 +1,15 @@
+$font : 'Raleway', sans-serif;
+$color1 : #65A0DC;
+$color2 : #FECDF0;
+
+
 .nav1 {
 	background-color: #FFC0ED;
 
 	a {
 		font-size: 16px;
 		text-transform: uppercase;
+		font-family : $font;
 	}
 
 	.btn {
@@ -25,6 +31,7 @@
 		color: #000;
 		font-size: 16px;
 		text-transform: uppercase;
+		font-family: $font;
 	}
 }
 
@@ -34,4 +41,26 @@
 	background-size: contain;
 	background-position: center;
 	height: 280px;
+}
+
+.modal {
+	overflow-y: hidden!important;
+	background-color: #65A0DC;
+}
+
+.titleModal {
+	font-size: 45px;
+	text-align: center;
+	font-weight: 800;
+	font-family: $font;
+	color: white;
+}
+
+.logoModal {
+	text-align: center;
+	margin-left: 17em;
+}
+
+.btn-connect {
+	padding-left: 50px;
 }

@@ -33,6 +33,7 @@
   color: #FECDF0;
   font-weight: 800; }
 
+
 .rowEquipe {
   display: flex;
   justify-content: space-around !important; }
@@ -41,6 +42,18 @@
   width: 13em !important;
   display: flex;
   flex-direction: column; }
+
+.collapsible .collapsible-header {
+  background-color: #65A0DC;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem; }
+.collapsible .subtitle {
+  font-style: italic;
+  font-weight: bold; }
+.collapsible h1 {
+  font-size: 3rem;
+  text-decoration: underline; }
 
 .carte {
   height: 150px;
