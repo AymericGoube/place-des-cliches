@@ -57,6 +57,10 @@ nav .input-field {
   margin-left: 10px; }
 
 .btn-connect {
-  border-bottom: 1px solid #9e9e9e; }
+  border-bottom: 1px solid #9e9e9e;
+  color: red; }
+
+nav .input-field input {
+  padding: 0; }
 
 /*# sourceMappingURL=header.css.map */
