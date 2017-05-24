@@ -27,6 +27,7 @@
 	<script src="views/js/scrollspy.js"></script>
 	<script src="views/js/carrousel.js"></script>
 	<script type="views/js/accordion.js"></script>
+	<script src="views/js/side.js"></script>
 
 </body>
 </html>
