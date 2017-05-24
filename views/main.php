@@ -20,7 +20,7 @@
                     pour parler de ces stéréotypes et amener les participants à les remettre en question.
                 </p>
         </div>
-            
+
         <h2 class="titlehistory">Merci pour votre engagement !</h2>
 
         <ul class="collapsible" data-collapsible="accordion">
@@ -85,69 +85,7 @@
             </li>
         </ul>
     </div>
-    
+
     <div class="partieEquipe">
             <p class="titlehistory">Voici l'équipe !</p>
-        <div class="row rowEquipe">
-            <div class="col s2 templateCarte">
-                <div class="col s12 carte" id="photo1">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-            </div>
-            <div class="col s2 templateCarte">
-                <div class="col s12 carte" id="photo2">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-            </div>
-            <div class="col s2 templateCarte">
-                <div class="col s12 carte" id="photo3">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-            </div>
-            <div class="col s2 templateCarte">
-                <div class="col s12 carte" id="photo4">
-                </div>
-                <div class="texte">
-                    <h6>lorem Ipsum</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-            </div>
-        
-        <div class="col s2 templateCarte">
-          <div class="col s12 carte" id="photo5">
-          </div>
-          <div class="texte">
-            <h6>lorem Ipsum</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-          </div>
-        </div>
-        <div class="col s2 templateCarte">
-          <div class="col s12 carte" id="photo6">
-          </div>
-          <div class="texte">
-            <h6>lorem Ipsum</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-          </div>
-        </div>
-        <div class="col s2 templateCarte">
-          <div class="col s12 carte" id="photo7">
-          </div>
-          <div class="texte">
-            <h6>lorem Ipsum</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </main>
+
