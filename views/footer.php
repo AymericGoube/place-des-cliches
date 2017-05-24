@@ -35,7 +35,7 @@ Les deux hommes entourent David et le conduisent à la voiture, un Espace, garé
 
     <div class="col s2 offset-s5">
 
-      <a href="#"><img src="views/img/logo simple.jpeg" alt=""></a>
+      <a href="#"><img src="views/img/logo2.png" alt=""></a>
     </div>
 
         <div class="col s12 copyright">
