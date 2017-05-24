@@ -3,43 +3,61 @@ $color1 : #65A0DC;
 $color2 : #FECDF0;
 
 
-
+.btnAbsolute{
+  position: absolute;
+  left: 95%;
+  top: 70%;
+  position: fixed;
+}
+.fa-arrow-circle-o-up{
+  color: $color1;
+}
 .carousel {
-    height: 400px!important;
+  height: 400px!important;
 }
 .history{
   border-bottom: #65A0DC 1px solid;
 }
 
 .titlehistory {
-    font-family: $font;
-    font-weight: 800;
-    font-size: 35px;
-    text-align: center;
+  font-family: $font;
+  font-weight: 800;
+  font-size: 35px;
+  text-align: center;
 }
 
 .bilan {
-    font-family: $font;
-    font-weight: 400;
-    text-align: center;
-    font-size: 20px;
+  font-family: $font;
+  font-weight: 400;
+  text-align: center;
+  font-size: 20px;
 }
 
 .bilanstyle1 {
-    color: $color1;
+  color: $color1;
 }
 
 .bilanstyle2 {
-    color: $color2;
-    font-weight: 800;
+  color: $color2;
+  font-weight: 800;
 }
 
+
+.rowEquipe{
+  display: flex;
+  justify-content: space-around!important;
+}
+.templateCarte{
+  width: 13em!important;
+  display: flex;
+  flex-direction: column;
+}
 .carte{
-  height: 300px;
+  height: 150px;
+  width: 150px;
   background-size: cover;
   background-position: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 50%;
 }
 #photo1{
   background-image: url("../img/photo1Cé.JPG");
@@ -68,15 +86,9 @@ $color2 : #FECDF0;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-bottom: $color1 1px solid;
-  border-right: $color1 1px solid;
-  border-left: $color1 1px solid;
-  border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 10px 10px 5px #656565;
 
-    h6{
-      font-weight: bolder;
-      font-size: 20px;
-    }
+  h6{
+    font-weight: bolder;
+    font-size: 20px;
+  }
 }
