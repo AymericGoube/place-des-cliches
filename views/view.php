@@ -31,5 +31,6 @@
 	<script src="views/js/carrousel.js"></script>
 	<script type="views/js/accordion.js"></script>
 
+
 </body>
 </html>
