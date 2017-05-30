@@ -24,13 +24,13 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
+	<script src="views/js/side.js"></script>
 	<script src="views/js/dropdown.js"></script>
 	<script src="views/js/modal.js"></script>
 	<script src="views/js/scrollspy.js"></script>
 	<script src="views/js/carrousel.js"></script>
 	<script type="views/js/accordion.js"></script>
 
-	<script type="text/javascript" src="views/js/subscribe.js"></script>
 
 </body>
 </html>
