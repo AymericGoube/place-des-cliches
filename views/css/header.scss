@@ -24,7 +24,7 @@ $color2 : #FECDF0;
 	.navmid {
 		display:flex;
 		justify-content:center;
-		
+
 	}
 
 	a {
@@ -47,6 +47,9 @@ $color2 : #FECDF0;
 	overflow-y: hidden!important;
 }
 
+.modal h1 {
+	margin-top: -21px;
+}
 .titleModal {
 	font-size: 45px;
 	text-align: center;

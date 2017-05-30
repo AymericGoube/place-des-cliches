@@ -8,9 +8,7 @@
             <input type="email" class="formControl" name="password" placeholder="Email">
         </div>
         <button  class="btn-send" value="connexion"  type="submit">ENVOYER</button><br>
-        <p class="continue">Or continue with</p><br>
-        <a href="#" class="btn-facebook">FACEBOOK</a><br></br>
-        <a href="#" class="btn-google">GOOGLE</a>
+
 
     </form>
 
@@ -27,7 +25,7 @@
         width: 45%!important;
         height: 35px!important;
         border-radius: 5px!important;
-        background-color: lightgrey!important;
+        background-color: white!important;
         }
 
     input::placeholder{
@@ -55,7 +53,7 @@
           border-radius: 4px;
           font-weight: bold;
           background: #3B5998;
-          margin-top: -5em;
+          margin-top: -8em;
         }
 
         .btn-facebook:hover {
@@ -70,7 +68,7 @@
           border-radius: 4px;
           font-weight: bold;
           background: #1266F1;
-          margin-top: -6em;
+          margin-top: -8em;
         }
 
         .btn-google:hover {

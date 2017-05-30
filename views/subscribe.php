@@ -1,29 +1,26 @@
 
 <div class="row">
-	<form class="col s3" method="post" action="">
+	<form class="col s12" method="post" action="">
 		<div class="row">
-			<div class="input-field col s12">
-				<label for="lastname"> Nom : </label>
-				<input type="text" name="lastname" id="lastname" required class="validate">
+			<div class="input col s6">
+				<input type="text" name="lastname" id="lastname" required>
 			</div>
 
-			<div class="input-field col s12">
-				<label for="firstname"> Prénom : </label>
+			<div class="input col s6">
 				<input type="text" name="firstname" id="firstname" required class="validate">
 			</div>
 
-			<div class="input-field col s12">
-				<label for="mail"> Email : </label>
+			<div class="input col s6">
+
 				<input type="email" name="mail" id="mail" required class="validate">
 			</div>
 
-			<div class="input-field col s12">
-				<label for="password"> Choisir un mot de passe : </label>
+			<div class="input col s6">
+
 				<input type="password" name="password" id="password" required class="validate">
 			</div>
 
-			<div class="select-field col s12">
-				<label for="status">Je</label>
+			<div class="select col s6">
 				<select required name="status" id="status" class="validate">
 					<optgroup label="Travaille dans un établissement scolaire">
 						<option value="primaire"> Primaire </option>
@@ -46,7 +43,7 @@
 				</select>
 			</div>
 
-			<div class="input-field col s12">
+			<div class="input col s6">
 				<label for="department"> Département : </label>
 				<input type="text" name="department" id="department" required class="validate">
 			</div>
@@ -55,3 +52,16 @@
 		</div>
 	</form>
 </div>
+
+<style>
+input {
+
+	border: 1px solid lightgrey!important;
+	width: 100%!important;
+	height: 35px!important;
+	border-radius: 5px!important;
+	background-color: white!important;
+	}
+
+
+</style>

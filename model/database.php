@@ -1,6 +1,6 @@
 <?php
 
-require '.config.php';
+require '../.config.php';
 
 try {
 	$bdd = new PDO('mysql:host=localhost;dbname='.$dbname.';charset=utf8', $user, $password);
