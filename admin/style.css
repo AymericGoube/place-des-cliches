@@ -3,13 +3,16 @@ body {
     padding: 0;
 }
 
-.formAdmin {
+.formAdmin, .updateForm, .createForm, .settingsForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
+
+
 
 h1 {
     text-align: center;
