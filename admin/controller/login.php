@@ -10,7 +10,7 @@ $identifiant = @htmlspecialchars($_POST['identifiant']);
 $password =   @htmlspecialchars($_POST['password']);
 
 // on prepare la requete de connexion
-$req = $bdd->prepare("SELECT identifiant, password FROM admin WHERE identifiant = :identifiant AND password = :password");
+$req = $bdd->prepare("SELECT identifiant, password FROM admins WHERE identifiant = :identifiant AND password = :password");
 
 // si le formulaire est rempli et valide
 if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){

@@ -7,14 +7,14 @@ $atelier = @htmlspecialchars($_POST['atelier']);
 $activite = @htmlspecialchars($_POST['activite']);
 $goals = @htmlspecialchars($_POST['goals']);
 $duration = @htmlspecialchars($_POST['duration']);
-$date_atelier = @htmlspecialchars($_POST['date_atelier']);
+$dateAtelier = @htmlspecialchars($_POST['dateAtelier']);
 $place = @htmlspecialchars($_POST['place']);
 
 
 if(isset($_GET['id'])){
     if(isset($atelier , $activite, $goals, $duration, $date_atelier, $place, $_POST['submit'])){
         $req = $bdd->prepare("UPDATE ateliers SET atelier = :nvatelier , activity = :nvactivite,
-            goals = :nvgoals, duration = :nvduration , date_atelier = :nvdate_atelier, place = :nvplace WHERE
+            goals = :nvgoals, duration = :nvduration , dateAtelier = :nvdateAtelier, place = :nvplace WHERE
             idAtelier = :id ");
             //var_dump($bdd);
 
@@ -27,7 +27,7 @@ if(isset($_GET['id'])){
 
             $req->execute(array(
                 'nvatelier' => $nvatelier,'nvactivite' => $nvactivite, 'nvgoals' => $nvgoals,
-                'nvduration'=> $nvduration, 'nvdate_atelier' => $nvdate_atelier, 'nvplace' => $nvplace,
+                'nvduration'=> $nvduration, 'nvdateAtelier' => $nvdateAtelier, 'nvplace' => $nvplace,
                 'id' => $_GET['id']));
                 echo '<div class="alert alert-success alert-dismissable"><button type="button"
                 class="close" data-dismiss="alert">&times;</button><strong>L atelier a ete modifie avec succes</strong></div>';
@@ -66,7 +66,7 @@ $update->execute(array(
             <label for="duration">Duree</label>
             <input type="text" name="duration" value="<?php echo $updateForm['duration'];?>">
             <label for="date_atelier">Date Atelier</label>
-            <input type="date" name="date_atelier" value="<?php echo $updateForm['date_atelier']; ?>">
+            <input type="date" name="dateAtelier" value="<?php echo $updateForm['dateAtelier']; ?>">
             <label for="place">Lieu</label>
             <input type="text" name="place" value="<?php echo $updateForm['place']; ?>">
             <input type="submit" name="submit" value="Valider">

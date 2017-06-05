@@ -13,7 +13,7 @@
         la page atelier.php-->
         <?php if(isset($_COOKIE['identifiant'], $_COOKIE['password'])){
             header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
-        } else{?>
+        } else {?>
             <form class="formAdmin" action="" method="post">
             <img class="logo" src="../views/img/logo.png" width="150px" alt="">
             <label for="identifiant">Identifiant :</label>
