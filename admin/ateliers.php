@@ -2,7 +2,7 @@
 
 require '../model/database.php';
 session_start();
-$admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']);
+
 
 ?>
 
@@ -17,14 +17,11 @@ $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']);
     </head>
     <body>
 
-        <h1>Liste des Ateliers Place des cliches</h1>
-        <?php if(isset($admin_connected)){
-            echo '<a href="controller/logout.php">Se deconnecter</a>';
-            echo '<a href="controller/settings.php?identifiant='. $_SESSION['identifiant'] .'">Parametrage du compte</a>';
-        } ?>
-        <img class="logo" src="../views/img/logo.png" width="150px" alt="">
+        <?php require 'nav.php';
+
+        ?>
         <?php if(isset($_SESSION['identifiant']) && (isset($_SESSION['password']))){
-            echo '<div class="alert alert-success alert-dismissable"><button type="button" class="close"
+            echo '<div class="message alert alert-success alert-dismissable"><button type="button" class="close"
             data-dismiss="alert">&times;</button></button><strong>Bonjour , ' . $_SESSION['identifiant'] . '
             </strong></div>';
         } ?>
@@ -73,7 +70,9 @@ $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']);
                 <?php } $reponse->closeCursor(); ?>
             </tbody>
 
-        </table>
 
+        </table>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../views/lib/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
