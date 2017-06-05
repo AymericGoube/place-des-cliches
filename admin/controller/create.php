@@ -20,7 +20,7 @@ if(isset($atelier, $activite, $goals, $duration, $date_atelier, $place, $_POST['
     ));
     echo '<div class="alert alert-success alert-dismissable"><button type="button" class="close"
     data-dismiss="alert">&times;</button><strong>L atelier a ete ajoute avec succes</strong></div>';
-    
+
 }
 
  ?>
@@ -34,6 +34,7 @@ if(isset($atelier, $activite, $goals, $duration, $date_atelier, $place, $_POST['
         <link rel="stylesheet" href="../../views/lib/bootstrap/css/bootstrap.min.css">
     </head>
     <body>
+        <?php require 'nav2.php' ?>
         <form class="createForm" action="" method="post">
             <label for="atelier">Atelier</label>
             <input type="text" name="atelier" value="">
@@ -49,5 +50,7 @@ if(isset($atelier, $activite, $goals, $duration, $date_atelier, $place, $_POST['
             <input type="text" name="place" >
             <input type="submit" name="submit" value="Valider">
         </form>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../views/lib/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -50,10 +50,11 @@ $update->execute(array(
         <meta charset="utf-8">
         <title>Modifier Atelier</title>
         <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="../views/lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../views/lib/bootstrap/css/bootstrap.min.css">
 
     </head>
     <body>
+        <?php require 'nav2.php'; ?>
         <?php while($updateForm = $update->fetch()){ ?>
         <form class="updateForm" action="" method="post">
             <label for="atelier">Atelier</label>
@@ -71,6 +72,9 @@ $update->execute(array(
             <input type="submit" name="submit" value="Valider">
         </form>
         <?php }
+
         $update->closeCursor(); ?>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../../views/lib/bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>

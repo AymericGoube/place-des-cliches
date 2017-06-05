@@ -45,6 +45,8 @@ $update_settings->execute(array(
          <link rel="stylesheet" href="../../views/lib/bootstrap/css/bootstrap.min.css">
      </head>
      <body>
+          <?php require 'nav2.php'; ?>
+          <!-- <img src="../../views/img/logo.png" width="100px" alt=""> -->
           <?php while($reponse = $update_settings->fetch()){ ?>
          <form class="settingsForm" action="" method="post">
               <label for="Identifiant">Votre Identifiant</label>
@@ -54,5 +56,7 @@ $update_settings->execute(array(
               <input type="submit" name="submit" value="modifier mes identifiants">
          </form>
          <?php } $update_settings->closeCursor(); ?>
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+         <script type="text/javascript" src="../../views/lib/bootstrap/js/bootstrap.min.js"></script>
      </body>
  </html>
