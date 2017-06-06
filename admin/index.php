@@ -11,9 +11,9 @@
     <body>
         <!-- si elle est tojours dans le cookie on la redirige automatiquement vers
         la page atelier.php-->
-        <?php if(isset($_COOKIE['identifiant'], $_COOKIE['password'])){
-            header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
-        } else {?>
+        <?php //if(isset($_COOKIE['identifiant'], $_COOKIE['password'])){
+            //header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
+        //} else {?>
             <form class="formAdmin" action="" method="post">
             <img class="logo" src="../views/img/logo.png" width="150px" alt="">
             <label for="identifiant">Identifiant :</label>
@@ -25,7 +25,7 @@
             <input type="submit" name="submit" value="Connexion">
         </form>
 
-        <?php } ?>
+        <?php //} ?>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="app.js"></script>
 

@@ -1,15 +1,15 @@
 <?php
 
-// require '../model/database.php';
+ require '../model/database.php';
 $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']); ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
         <title></title>
     </head>
     <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+         --><nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
               <div class="navbar-header">
               <button type='button' class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -31,8 +31,8 @@ $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']); ?>
 
             </div>
 
-        </nav>
+        </nav><!-- 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../views/lib/bootstrap/js/bootstrap.min.js"></script>
     </body>
-</html>
+</html> -->

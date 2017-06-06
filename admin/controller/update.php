@@ -12,17 +12,17 @@ $place = @htmlspecialchars($_POST['place']);
 
 
 if(isset($_GET['id'])){
-    if(isset($atelier , $activite, $goals, $duration, $date_atelier, $place, $_POST['submit'])){
+    if(isset($atelier , $activite, $goals, $duration, $dateAtelier, $place, $_POST['submit'])){
         $req = $bdd->prepare("UPDATE ateliers SET atelier = :nvatelier , activity = :nvactivite,
             goals = :nvgoals, duration = :nvduration , dateAtelier = :nvdateAtelier, place = :nvplace WHERE
-            idAtelier = :id ");
+            id = :id ");
             //var_dump($bdd);
 
             $nvatelier = $atelier;
             $nvactivite = $activite;
             $nvgoals = $goals;
             $nvduration = $duration;
-            $nvdate_atelier = $date_atelier;
+            $nvdateAtelier = $dateAtelier;
             $nvplace = $place;
 
             $req->execute(array(
@@ -35,7 +35,7 @@ if(isset($_GET['id'])){
     }
 }
 
-$update = $bdd->prepare("SELECT * FROM ateliers WHERE idAtelier = :id");
+$update = $bdd->prepare("SELECT * FROM ateliers WHERE id = :id");
 $update->execute(array(
     'id' => $_GET['id']
 ));

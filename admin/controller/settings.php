@@ -8,7 +8,7 @@ $password    = @htmlspecialchars($_POST['password']);
 
 if(isset($_GET['identifiant'])){
 if(isset($identifiant, $password, $_POST['submit'])){
-     $settings = $bdd->prepare('UPDATE admin SET identifiant = :nvidentifiant, password = :nvpassword
+     $settings = $bdd->prepare('UPDATE admins SET identifiant = :nvidentifiant, password = :nvpassword
           WHERE identifiant = :identifiant');
 
      $nvidentifiant = $identifiant;
@@ -25,7 +25,7 @@ if(isset($identifiant, $password, $_POST['submit'])){
 }
 }
 
-$update_settings = $bdd->prepare('SELECT * FROM admin WHERE identifiant = :identifiant ');
+$update_settings = $bdd->prepare('SELECT * FROM admins WHERE identifiant = :identifiant ');
 $update_settings->execute(array(
      'identifiant' => $_GET['identifiant']
 ));
