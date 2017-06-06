@@ -1,33 +1,96 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <form class="form-group" action="view.php" method="post">
+        <div class="form-content">
+            <input type="text" class="formControl" name="name" placeholder="Nom">
+            <input type="text" class="formControl" name="firstname" placeholder="Prenom">
+        </div>
+        <div class="form-content">
+            <input type="text" class="formControl" name="password" placeholder="Telephone">
+            <input type="email" class="formControl" name="password" placeholder="Email">
+        </div>
+        <button  class="btn-send" value="connexion"  type="submit">ENVOYER</button><br>
 
-<div class="row">
-	<form class="col s3" method="post" action="">
-		<div class="row">
-			<div class="input-field col s12">
-				<label for="lastname"> Nom : </label>
-				<input type="text" name="lastname" id="lastname" required class="validate">
-			</div>
 
-			<div class="input-field col s12">
-				<label for="firstname"> Prénom : </label>
-				<input type="text" name="firstname" id="firstname" required class="validate">
-			</div>
+    </form>
 
-			<div class="input-field col s12">
-				<label for="mail"> Email : </label>
-				<input type="email" name="mail" id="mail" required class="validate">
-			</div>
 
-			<div class="input-field col s12">
-				<label for="tel"> Téléphone : </label>
-				<input type="text" name="tel" id="tel" required class="validate">
-			</div>
+<style >
 
-			<button class="btn waves-effect waves-light" type="submit" name="submit"> Devenir bénévole </button>
-		</div>
-	</form>
-</div>
+    .form-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    input {
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-<script src="js/subscribe.js"></script>
+        border: 1px solid lightgrey!important;
+        width: 45%!important;
+        height: 35px!important;
+        border-radius: 5px!important;
+        background-color: white!important;
+        }
+
+    input::placeholder{
+        color : black;
+    }
+            .btn-send {
+          color: white;
+          text-align: center;
+          border-radius: 4px;
+          font-weight: bold;
+          background: #323232;
+          width: 100%;
+        }
+
+        .btn-send:hover {
+          opacity: 1;
+          background: #323232;
+          text-decoration: none;
+          color: white;
+        }
+
+        .btn-facebook {
+          color: white;
+          text-align: center;
+          border-radius: 4px;
+          font-weight: bold;
+          background: #3B5998;
+          margin-top: -8em;
+        }
+
+        .btn-facebook:hover {
+          opacity: 1;
+          background: ##3B5998;
+          text-decoration: none;
+          color: white;
+        }
+        .btn-google {
+          color: white;
+          text-align: center;
+          border-radius: 4px;
+          font-weight: bold;
+          background: #1266F1;
+          margin-top: -8em;
+        }
+
+        .btn-google:hover {
+          opacity: 1;
+          background: #1266F1;
+          text-decoration: none;
+          color: white;
+        }
+
+        .formControl {
+            width: 100%;
+            background-color: rgb(239,239,239);
+            border: none;
+        }
+
+        .form-group{
+          margin-top: -1em;
+        }
+
+        .continue {
+            color: black;
+        }
+
+
+</style>

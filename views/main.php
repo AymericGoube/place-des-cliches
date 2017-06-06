@@ -85,6 +85,7 @@
             </li>
         </ul>
     </div>
+<<<<<<< HEAD
 
     <div class="partieEquipe">
             <p class="titlehistory">Voici l'équipe !</p>
@@ -156,3 +157,5 @@
 =======
 
 >>>>>>> 849a0280f366102ce09e0e1ffa743363f5c8e0a2
+=======
+>>>>>>> eba7a58c1a879c4d91de252a611d90dc155a593f

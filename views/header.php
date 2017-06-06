@@ -8,7 +8,7 @@
         <div class="modal-content">
           <img class="logoModal" src="views/img/logo.png" width="100px" alt="">
           <h1 class="titleModal">Agissons ensemble</h1>
-
+          <?php require 'new_volunteer.php'; ?>
 
         </div>
 
@@ -27,8 +27,9 @@
     <div class="modal-content">
       <img class="logoModal" src="views/img/logo.png" width="100px" alt="">
       <h1 class="titleModal">Agissons ensemble</h1>
+      <?php require 'subscribe.php'; ?>
     </div>
-
+    </div>
 
     <div class="dropdown" ng-show="IsVisible">
       <form class="col s3">
