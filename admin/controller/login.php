@@ -22,10 +22,10 @@ if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
 
     ));
     // si la case se souvenir a ete coche , on initialise les COOKIES
-    if(isset($_POST['remember'])){
-        setcookie('identifiant', @htmlspecialchars($_POST['identifiant']) , time() + 365 * 24 * 3600, null, null, false, true);
-        setcookie('password', @htmlspecialchars($_POST['password']) , time() + 365 * 24 * 3600, null, null, false, true);
-    };
+    // if(isset($_POST['remember'])){
+    //     setcookie('identifiant', @htmlspecialchars($_POST['identifiant']) , time() + 365 * 24 * 3600, null, null, false, true);
+    //     setcookie('password', @htmlspecialchars($_POST['password']) , time() + 365 * 24 * 3600, null, null, false, true);
+    // };
     // on verifie que les identifiants et mot de passe correspondent
     $connectedAdmin = $req->fetch();
     // si ils sont differents, on affiche une alerte

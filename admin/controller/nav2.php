@@ -6,6 +6,9 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link rel="stylesheet" href="../../views/lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../style.css">
+
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">

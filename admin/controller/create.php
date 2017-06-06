@@ -30,7 +30,7 @@ require 'upload.php';
             <label for="place">Lieu</label>
             <input type="text" name="place" >
             <input type="hidden" name="MAX_FILE_SIZE" value="1048576">
-            <input type="file" name="image">
+            <input type="file" name="image" multiple>
             <input type="submit" name="submit" value="Valider">
         </form>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

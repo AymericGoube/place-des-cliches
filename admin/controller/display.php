@@ -2,6 +2,7 @@
 
 $reponse = $bdd->query("SELECT * FROM ateliers");
 
+
 $admin_is_connected = isset($_SESSION['identifiant'], $_SESSION['password']);
 
 if($admin_is_connected){

@@ -14,6 +14,9 @@ session_start();
         <link rel="stylesheet" href="../views/lib/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="../views/lib/bootstrap/js/bootstrap.min.js"></script>
+
     </head>
     <body>
 
@@ -46,13 +49,14 @@ session_start();
                     <td><?php echo $donnee['activity']; ?></td>
                     <td><?php echo $donnee['goals']; ?></td>
                     <td><?php echo $donnee['duration']; ?></td>
-                    <td><?php echo $donnee['date_atelier']; ?></td>
+                    <td><?php echo $donnee['dateAtelier']; ?></td>
                     <td><?php echo $donnee['place']; ?></td>
+
                     <?php if(isset($_SESSION['identifiant']) && isset($_SESSION['password'])){ ?>
                     <td>
                         <?php $updateWorkshops = array($donnee);
                         foreach ($updateWorkshops as $updateWorkshop ) {
-                            echo '<a href="controller/update.php?id='. $donnee['idAtelier']. '"><i class="fa fa-edit"></i>
+                            echo '<a href="controller/update.php?id='. $donnee['id']. '"><i class="fa fa-edit"></i>
                             Modifier Atelier</a>';
                         }
                          ?>
@@ -60,7 +64,7 @@ session_start();
                     <td>
                         <?php $deleteWorkshops = array($donnee);
                         foreach ($deleteWorkshops as $deleteWorkshop ) {
-                            echo '<a href="controller/delete.php?id='. $donnee['idAtelier']. '"><i class="fa fa-trash" aria-hidden="true"></i>
+                            echo '<a href="controller/delete.php?id='. $donnee['id']. '"><i class="fa fa-trash" aria-hidden="true"></i>
                             Supprimer Atelier</a>';
                         }
                          ?>
@@ -72,7 +76,5 @@ session_start();
 
 
         </table>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="../views/lib/bootstrap/js/bootstrap.min.js"></script>
-    </body>
+        </body>
 </html>
