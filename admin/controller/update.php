@@ -12,11 +12,10 @@ $place = @htmlspecialchars($_POST['place']);
 
 
 if(isset($_GET['id'])){
-    if(isset($atelier , $activite, $goals, $duration, $dateAtelier, $place, $_POST['submit'])){
+    if(isset($atelier , $activite, $goals, $duration, $dateAtelier, $place, $_FILES['image'], $_POST['submit'])){
         $req = $bdd->prepare("UPDATE ateliers SET atelier = :nvatelier , activity = :nvactivite,
-            goals = :nvgoals, duration = :nvduration , dateAtelier = :nvdateAtelier, place = :nvplace WHERE
+            goals = :nvgoals, duration = :nvduration , dateAtelier = :nvdateAtelier, place = :nvplace, image = :nvimage WHERE
             id = :id ");
-            //var_dump($bdd);
 
             $nvatelier = $atelier;
             $nvactivite = $activite;
@@ -24,11 +23,12 @@ if(isset($_GET['id'])){
             $nvduration = $duration;
             $nvdateAtelier = $dateAtelier;
             $nvplace = $place;
+            $nvimage = $_FILES['image'];
 
             $req->execute(array(
                 'nvatelier' => $nvatelier,'nvactivite' => $nvactivite, 'nvgoals' => $nvgoals,
                 'nvduration'=> $nvduration, 'nvdateAtelier' => $nvdateAtelier, 'nvplace' => $nvplace,
-                'id' => $_GET['id']));
+                'nvimage' => $_FILES['image'], 'id' => $_GET['id']));
                 echo '<div class="alert alert-success alert-dismissable"><button type="button"
                 class="close" data-dismiss="alert">&times;</button><strong>L atelier a ete modifie avec succes</strong></div>';
 
@@ -69,6 +69,8 @@ $update->execute(array(
             <input type="date" name="dateAtelier" value="<?php echo $updateForm['dateAtelier']; ?>">
             <label for="place">Lieu</label>
             <input type="text" name="place" value="<?php echo $updateForm['place']; ?>">
+            <input type="hidden" name="MAX_FILE_SIZE" value="1048576">
+            <input type="file" name="image" value="<?php echo $updateForm['image']; ?>">
             <input type="submit" name="submit" value="Valider">
         </form>
         <?php }
