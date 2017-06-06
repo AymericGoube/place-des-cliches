@@ -38,6 +38,7 @@ session_start();
                     <th>Duree</th>
                     <th>Date</th>
                     <th>Lieu</th>
+                    <th>Image</th>
                     <th>Modifier un article</th>
                     <th>Supprimer un article</th>
                 </tr>
@@ -51,6 +52,7 @@ session_start();
                     <td><?php echo $donnee['duration']; ?></td>
                     <td><?php echo $donnee['dateAtelier']; ?></td>
                     <td><?php echo $donnee['place']; ?></td>
+                    <td><?php echo '<img src="'.$donnee['image'].'" width="100" height="100">'; ?></td>
 
                     <?php if(isset($_SESSION['identifiant']) && isset($_SESSION['password'])){ ?>
                     <td>

@@ -8,7 +8,7 @@ setcookie('identifiant', '', time() -3600);
 setcookie('password', '', time() -3600);
 
 
-// $_SESSION = array();
+$_SESSION = array();
 
 // on detruit la session
 session_destroy();

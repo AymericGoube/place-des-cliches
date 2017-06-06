@@ -7,7 +7,7 @@ require '../model/database.php';
 
 // on declare les variable de connexion et on les securise
 $identifiant = @htmlspecialchars($_POST['identifiant']);
-$password =   @htmlspecialchars($_POST['password']);
+$password = @htmlspecialchars($_POST['password']);
 
 // on prepare la requete de connexion
 $req = $bdd->prepare("SELECT identifiant, password FROM admins WHERE identifiant = :identifiant AND password = :password");
