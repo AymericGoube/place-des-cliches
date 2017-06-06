@@ -1,6 +1,6 @@
 $font : 'Raleway', sans-serif;
 $color1 : #65A0DC;
-$color2 : #FECDF0;
+$color2 : #ffcdbe;
 
 
 .btnAbsolute{
@@ -70,45 +70,25 @@ $color2 : #FECDF0;
         font-size: 3rem;
         text-decoration: underline;
     }
-}
-
-.carte{
-  height: 150px;
-  width: 150px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
-}
-#photo1{
-  background-image: url("../img/Cecile.JPG");
-}
-#photo2{
-  background-image: url("../img/Fania.jpg");
-}
-#photo3{
-  background-image: url("../img/Fatime.jpg");
-}
-#photo4{
-  background-image: url("../img/Helene.jpg");
-}
-#photo5{
-  background-image: url("../img/Solange.jpg");
-}
-#photo6{
-  background-image: url("../img/Sandra.jpg");
-}
-#photo7{
-  background-image: url("../img/Samantha.jpg");
-}
-
-.texte{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-h6{
-    font-weight: bolder;
-    font-size: 20px;
-  }
+    #photo1{
+      background-image: url("../img/Cecile.JPG");
+    }
+    #photo2{
+      background-image: url("../img/Fania.jpg");
+    }
+    #photo3{
+      background-image: url("../img/Fatime.jpg");
+    }
+    #photo4{
+      background-image: url("../img/Helene.jpg");
+    }
+    #photo5{
+      background-image: url("../img/Solange.jpg");
+    }
+    #photo6{
+      background-image: url("../img/Sandra.jpg");
+    }
+    #photo7{
+      background-image: url("../img/Samantha.jpg");
+    }
 }

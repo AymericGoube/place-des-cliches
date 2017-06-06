@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 <head>
 	<meta charset="utf-8">
   <title>Place des clichés</title>
@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="views/css/header.css">
 	<link rel="stylesheet" type="text/css" href="views/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
 
 	<link rel="stylesheet" type="text/css" href="views/css/footer.css">
 </head>
@@ -27,6 +29,7 @@
 	<script src="views/js/scrollspy.js"></script>
 	<script src="views/js/carrousel.js"></script>
 	<script type="views/js/accordion.js"></script>
+	<script src="views/js/side.js"></script>
 
 </body>
 </html>

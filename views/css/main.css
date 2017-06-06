@@ -52,42 +52,19 @@
 .collapsible h1 {
   font-size: 3rem;
   text-decoration: underline; }
-
-.carte {
-  height: 150px;
-  width: 150px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%; }
-
-#photo1 {
+.collapsible #photo1 {
   background-image: url("../img/Cecile.JPG"); }
-
-#photo2 {
+.collapsible #photo2 {
   background-image: url("../img/Fania.jpg"); }
-
-#photo3 {
+.collapsible #photo3 {
   background-image: url("../img/Fatime.jpg"); }
-
-#photo4 {
+.collapsible #photo4 {
   background-image: url("../img/Helene.jpg"); }
-
-#photo5 {
+.collapsible #photo5 {
   background-image: url("../img/Solange.jpg"); }
-
-#photo6 {
+.collapsible #photo6 {
   background-image: url("../img/Sandra.jpg"); }
-
-#photo7 {
+.collapsible #photo7 {
   background-image: url("../img/Samantha.jpg"); }
-
-.texte {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center; }
-  .texte h6 {
-    font-weight: bolder;
-    font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */

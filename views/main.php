@@ -88,6 +88,7 @@
 
     <div class="partieEquipe">
             <p class="titlehistory">Voici l'équipe !</p>
+<<<<<<< HEAD
         <div class="row rowEquipe">
             <div class="col s2 templateCarte">
                 <div class="col s12 carte" id="photo1">
@@ -152,3 +153,6 @@
     </div>
     </div>
   </main>
+=======
+
+>>>>>>> 849a0280f366102ce09e0e1ffa743363f5c8e0a2

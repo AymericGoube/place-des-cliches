@@ -58,5 +58,7 @@ footer {
     padding-top: 30px !important; }
     footer .copyright span {
       color: #00ACED; }
-
+  .no-margin{
+      margin: 0;
+  }
 /*# sourceMappingURL=footer.css.map */
