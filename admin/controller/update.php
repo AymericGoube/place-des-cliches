@@ -12,6 +12,7 @@ $place = @htmlspecialchars($_POST['place']);
 
 
 if(isset($_GET['id'])){
+
     if(isset($atelier , $activite, $goals, $duration, $dateAtelier, $place, $_FILES['image'], $_POST['submit'])){
         $req = $bdd->prepare("UPDATE ateliers SET atelier = :nvatelier , activity = :nvactivite,
             goals = :nvgoals, duration = :nvduration , dateAtelier = :nvdateAtelier, place = :nvplace, image = :nvimage WHERE

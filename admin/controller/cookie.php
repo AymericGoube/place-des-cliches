@@ -10,13 +10,13 @@ if(!isset($_SESSION['id']) && isset($_COOKIE['identifiant'], $_COOKIE['password'
 
     // alors on prepare une requiete de connexion
 
-    $req = $bdd->prepare("SELECT identifiant, password FROM admin WHERE identifiant = :identifiant AND password = :password");
+    $req = $bdd->prepare("SELECT identifiant, password FROM admins WHERE identifiant = :identifiant AND password = :password");
     $req->execute(array(
         'identifiant' => $_COOKIE['identifiant'],
         'password' => $_COOKIE['password']
 
     ));
-    
+
     $reponse = $req->fetch()
 
     if($reponse){

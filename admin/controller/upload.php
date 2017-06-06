@@ -28,7 +28,7 @@ if(isset($_POST['atelier'], $_POST['activite'], $_POST['goals'], $_POST['duratio
       $resultat = move_uploaded_file($_FILES['image']['tmp_name'], "../$chemin"); /* fonction pour déplacer l'image dans un dossier temporaire, qui correspond au dossier photos */
       if ($resultat) {
         echo "<p>transfert de l'image réussi</p>";
-        //chmod($chemin, 0755);
+        // chmod($chemin, 0755);
       } else {
         $from = $_FILES['image']['tmp_name'];
         echo "<p>échec du transfert de l'image de $from à $chemin</p>";
@@ -36,7 +36,7 @@ if(isset($_POST['atelier'], $_POST['activite'], $_POST['goals'], $_POST['duratio
 
       $req = $bdd->prepare("INSERT INTO ateliers (atelier, activity, goals, duration, dateAtelier, place, image)
       VALUES (?,?,?,?,?,?,?)");
-      
+
 
       if (
         $req->execute(array(
@@ -50,7 +50,7 @@ if(isset($_POST['atelier'], $_POST['activite'], $_POST['goals'], $_POST['duratio
       echo '<div class="alert alert-success alert-dismissable"><button type="button" class="close"
       data-dismiss="alert">&times;</button><strong>L atelier a ete ajoute avec succes</strong></div>';
 
-    
+
 
       // si l'image a bien été transféré, on l'insère OU on la modifie dans la base de données
       // if ($resultat) {
@@ -59,7 +59,7 @@ if(isset($_POST['atelier'], $_POST['activite'], $_POST['goals'], $_POST['duratio
       // } else {
       //   echo "Erreur dans le transfert de l'image";
       // }
-      
+
     }
     else {
       echo "Le format de l'image doit être soit jpg, soit jpeg, soit gif, soit png";
