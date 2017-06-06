@@ -28,7 +28,7 @@ session_start();
             data-dismiss="alert">&times;</button></button><strong>Bonjour , ' . $_SESSION['identifiant'] . '
             </strong></div>';
         } ?>
-        <?php require 'display.php'; ?>
+        <?php require 'controller/display.php'; ?>
         <table class="table table-bordered table-striped table-responsive">
             <thead>
                 <tr>
