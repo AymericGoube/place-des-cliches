@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.6deb4
+-- version 4.6.4deb1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Generation Time: May 30, 2017 at 01:57 PM
--- Server version: 5.7.18-0ubuntu0.17.04.1
--- PHP Version: 7.0.18-0ubuntu0.17.04.1
+-- Client :  localhost:3306
+-- Généré le :  Mar 06 Juin 2017 à 16:55
+-- Version du serveur :  5.7.18-0ubuntu0.16.10.1
+-- Version de PHP :  7.0.15-0ubuntu0.16.10.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,51 +17,53 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `place_des_cliches`
+-- Base de données :  `place_des_cliches`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ateliers`
+-- Structure de la table `ateliers`
 --
 
 CREATE TABLE `ateliers` (
-  `idAtelier` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `atelier` text NOT NULL,
   `activity` text NOT NULL,
   `goals` text NOT NULL,
   `duration` text NOT NULL,
-  `date_atelier` datetime NOT NULL,
-  `place` varchar(255) NOT NULL
+  `dateAtelier` datetime NOT NULL,
+  `place` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `ateliers`
+-- Contenu de la table `ateliers`
 --
 
-INSERT INTO `ateliers` (`idAtelier`, `atelier`, `activity`, `goals`, `duration`, `date_atelier`, `place`) VALUES
-(1, 'atelier d\'introduction', 'Donner à chaque élève 2 post-it de couleurs\r\n\r\ndifférentes. Ils ont 1 minute top chrono pour écrire 2/3\r\n\r\nmots qui leur passe par la tête quand on dit le mot\r\n\r\nfemme sur un post-it et pareil quand on dit le mot\r\n\r\nhomme sur l\'autre post-it. Récupérez les post-it et\r\n\r\nlisez-en quelques un à voix haute. Les faire réagir\r\n\r\ndessus.', 'Ce que l\'on cherche ici, c\'est la SPONTANÉITÉ des\r\n\r\nélèves. Ils ne savent pas vraiment de quoi l\'atelier\r\n\r\nva parler, ils n\'ont pas le temps de réfléchir. Le but\r\n\r\net de faire ressortir les stéréotypes qu\'ils peuvent\r\n\r\navoir -> l\'atelier se base ainsi sur leurs propres\r\n\r\nstéréotypes.', '1 heure', '2017-06-28 10:00:00', 'Lycée');
+INSERT INTO `ateliers` (`id`, `atelier`, `activity`, `goals`, `duration`, `dateAtelier`, `place`, `image`) VALUES
+(3, '', 'zdezfr', 'zsefr', '30min', '2017-07-14 00:00:00', 'paris', ''),
+(4, 'latelier', 'a', 'b', '10', '2017-07-14 00:00:00', 'paris', '');
 
 --
--- Indexes for dumped tables
+-- Index pour les tables exportées
 --
 
 --
--- Indexes for table `ateliers`
+-- Index pour la table `ateliers`
 --
 ALTER TABLE `ateliers`
-  ADD PRIMARY KEY (`idAtelier`);
+  ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT pour les tables exportées
 --
 
 --
--- AUTO_INCREMENT for table `ateliers`
+-- AUTO_INCREMENT pour la table `ateliers`
 --
 ALTER TABLE `ateliers`
-  MODIFY `idAtelier` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

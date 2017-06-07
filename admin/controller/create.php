@@ -35,6 +35,7 @@ require 'upload.php';
             <label for="place">Lieu</label>
             <input type="text" name="place" >
             <input type="hidden" name="MAX_FILE_SIZE" value="1048576">
+            <label>Télécharger une image</label>
             <input type="file" name="image">
             <input type="submit" name="submit" value="Valider">
         </form>
