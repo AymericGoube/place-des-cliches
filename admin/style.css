@@ -16,9 +16,12 @@ body {
 .message {
     margin-top: 60px;
 }
+#atelier{
+  width: 250px;
+}
 
-
-
+textarea{resize: none;
+}
 
 h1 {
     text-align: center;
