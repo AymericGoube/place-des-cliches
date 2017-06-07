@@ -1,0 +1,30 @@
+.row{
+      width: 100%;
+}
+/*MediaQueries Mobile*/
+@media screen and (min-width: 320px) {
+  .container{
+    background-color: blue;
+    width: auto;
+  }
+
+  .row{
+    background-color: #fff;
+  }
+
+  .row > * {
+      margin : 0;
+  }
+
+  .w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12 {
+      width : 100%;
+  }
+  div{
+    /*background-color: green;*/
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+
+      }
+
+}

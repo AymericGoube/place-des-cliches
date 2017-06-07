@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1em;
+  background-color: #4ed1e5;
+}
+
+/*img Responsive au viewport*/
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.height{
+  height: 150px;
+}

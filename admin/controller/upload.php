@@ -28,7 +28,7 @@ if(isset($_POST['atelier'], $_POST['activite'], $_POST['goals'], $_POST['duratio
       $resultat = move_uploaded_file($_FILES['image']['tmp_name'], "../$chemin"); /* fonction pour déplacer l'image dans un dossier temporaire, qui correspond au dossier photos */
       if ($resultat) {
         echo "<p>transfert de l'image réussi</p>";
-        // chmod($chemin, 0755);
+         chmod($chemin, 0755);
       } else {
         $from = $_FILES['image']['tmp_name'];
         echo "<p>échec du transfert de l'image de $from à $chemin</p>";
