@@ -1,7 +1,8 @@
 <?php
 
  require '../model/database.php';
-$admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']); ?>
+$admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']);
+?>
 <!-- <!DOCTYPE html>
 <html>
     <head>
@@ -24,14 +25,14 @@ $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']); ?>
                    <li><a href="ateliers.php">Liste des ateliers</a></li>
                     <?php if($admin_connected) { ?>
                     <li> <?php echo '<a href="controller/logout.php">Se deconnecter</a>'; ?> </li>
-                    <li> <?php echo '<a href="controller/settings.php?identifiant='. $_SESSION['identifiant'] .'">Parametrage du compte</a>'; ?> </li>
+                    <li> <?php echo '<a href="controller/settings.php?identifiant='. $_SESSION['identifiant'] .'">Parametrage du compte</a>' ?> </li>
                     <?php } ?>
                 </ul>
               </div>
 
             </div>
 
-        </nav><!-- 
+        </nav><!--
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../views/lib/bootstrap/js/bootstrap.min.js"></script>
     </body>

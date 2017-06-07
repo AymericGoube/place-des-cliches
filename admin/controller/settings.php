@@ -2,12 +2,10 @@
 session_start();
 require '../../model/database.php';
 
-$identifiant = @htmlspecialchars($_POST['identifiant']);
-$password    = @htmlspecialchars($_POST['password']);
-
-
 if(isset($_GET['identifiant'])){
-if(isset($identifiant, $password, $_POST['submit'])){
+if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
+     $identifiant = htmlspecialchars($_POST['identifiant']);
+     $password    = htmlspecialchars($_POST['password']);
      $settings = $bdd->prepare('UPDATE admins SET identifiant = :nvidentifiant, password = :nvpassword
           WHERE identifiant = :identifiant');
 
