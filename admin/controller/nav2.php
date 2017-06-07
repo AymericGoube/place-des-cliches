@@ -1,6 +1,7 @@
 
 <!-- on verifie la presence des sessions -->
-<?php $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']); ?>
+<?php $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,7 +27,7 @@
                    <li><a href="../ateliers.php">Liste des ateliers</a></li>
                     <?php if($admin_connected) { ?>
                     <li> <?php echo '<a href="logout.php">Se deconnecter</a>'; ?> </li>
-                    <li> <?php echo '<a href="settings.php?identifiant='. $_SESSION['identifiant'] .'">Parametrage du compte</a>'; ?> </li>
+                    <li> <?php echo '<a href="settings.php?identifiant='. $_SESSION['identifiant'] .'">Parametrage du compte</a>';?> </li>
                     <?php } ?>
                 </ul>
               </div>

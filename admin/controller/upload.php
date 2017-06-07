@@ -28,19 +28,42 @@ if(isset($_POST['atelier'], $_POST['activite'], $_POST['goals'], $_POST['duratio
       $resultat = move_uploaded_file($_FILES['image']['tmp_name'], "../$chemin"); /* fonction pour déplacer l'image dans un dossier temporaire, qui correspond au dossier photos */
       if ($resultat) {
         echo "<p>transfert de l'image réussi</p>";
-         chmod($chemin, 0755);
+        //  chmod($chemin, 0755);
       } else {
         $from = $_FILES['image']['tmp_name'];
         echo "<p>échec du transfert de l'image de $from à $chemin</p>";
       }
 
       $req = $bdd->prepare("INSERT INTO ateliers (atelier, activity, goals, duration, dateAtelier, place, image)
-      VALUES (?,?,?,?,?,?,?)");
+      VALUES (:atelier, :activity, :goals, :duration, :dateAtelier, :place, :image)");
 
-
+/*INSERT INTO ateliers (
+  atelier,
+  activity,
+  goals,
+  duration,
+  dateAtelier,
+  place,
+  image) VALUES (
+  'atelier',
+  'atelier',
+  'a',
+  '30',
+  '2017-07-14 00:00:00',
+  'paris',
+  'images/logo2.png'
+  )*/
+/*INSERT INTO ateliers (atelier, activity, goals, duration, dateAtelier, place, image)
+      VALUES ('az', 'az', 'az', '30min', '2017-23-06', 'paris', 'images/admin.png')*/
       if (
         $req->execute(array(
-            $atelier, $activite, $goals, $duration, $dateAtelier, $place, $chemin
+          'atelier'=>$atelier,
+          'activity'=>$activite,
+          'goals'=>$goals,
+          'duration'=>$duration,
+          'dateAtelier'=>$dateAtelier,
+          'place'=>$place,
+          'image'=>$chemin
         ))
       ) {
         echo "<p>la base de donné a été mise à jour</p>";

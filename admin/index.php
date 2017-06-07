@@ -1,4 +1,5 @@
 <?php require 'controller/login.php'; ?>
+<?php require 'controller/signup.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -18,7 +19,8 @@
         // header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
 
         //} else {?>
-            <form class="formAdmin" action="" method="post">
+        <div class="form">
+        <form class="formAdmin" action="" method="post">
             <img class="logo" src="../views/img/logo.png" width="150px" alt="">
             <label for="identifiant">Identifiant :</label>
             <input id="identifiant" type="text" name="identifiant" value="">
@@ -26,8 +28,20 @@
             <input id="password" type="password" name="password" value="" placeholder="password">
             <label for="hope">Se souvenir de moi</label>
             <input type="checkbox" name="remember">
-            <input type="submit" name="submit" value="Connexion">
+            <input type="submit" name="submit" value="Se connecter">
         </form>
+
+        <form class="createAdmin" action="" method="post">
+            <img class="logo" src="../views/img/logo.png" width="150px" alt="">
+            <label for="nvidentifiant">Identifiant :</label>
+            <input id="nvidentifiant" type="text" name="nvidentifiant" value="">
+            <label for="nvpassword">Mot de passe :</label>
+            <input id="nvpassword" type="password" name="nvpassword" value="" placeholder="password">
+            <label for="remember">Se souvenir de moi</label>
+            <input id="remember" type="checkbox" name="nvremember">
+            <input type="submit" name="nvsubmit" value="S'inscrire">
+        </form>
+        </div>
 
 
         <?php // } ?>
