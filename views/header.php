@@ -1,40 +1,18 @@
-<div class="container">
+<nav id="nav">
+      <a href="#" id="scrollspy1">Nous rejoindre</a>
+      <a href="#" id="scrollspy1">Se connecter</a>
+</nav>
+<nav id="nav2">
+<ul>
+      <li><div class="logonav">
+      </div></li>
+      <li><a href="#scrollspy1" class="js-scrollTo">Accueil</a></li>
+      <li><a href="#scrollspy2" class="js-scrollTo">L'Association</a></li>
+      <li><a href="#scrollspy3" class="js-scrollTo">L'Equipe</a></li>
+      <li><a href="#scrollspy4" class="js-scrollTo">Temoignages</a></li>
+      <li><a href="#scrollspy5" class="js-scrollTo">Contact</a></li>
+</ul>
+</nav>
+<div class="logo2">
 
-      <div class="row">
-        <header>
-          <div class="w-12">
-            <a href="#">Se Connecter</a>
-            <img src="img/slogan.png" alt="">
-          </div>
-        </header>
-
-        <!-- <div class="row">
-          <div class="w-12">
-            <nav>
-            <ul>
-              <li><a href="#">gr</a></li>
-              <li><a href="#">rgr</a></li>
-              <li><a href="#">reg</a></li>
-              <li><a href="#">erg</a></li>
-              <li><a href="#">er</a></li>
-            </ul>
-            <a id="hamb" class="navo" href="#">&#9776;</a>
-            </nav>
-          </div>
-        </div> -->
-
-        <!-- Création d'une new nav pour l'efet hamb -->
-        <!-- <div class="row no-margin">
-          <div class="menu w-12">
-            <nav id="nav">
-              <ul style="display: block">
-                <li><a class="color" href="#">zea</a></li>
-                <li><a class="color" href="#">eaze</a></li>
-                <li><a class="color" href="#">ezaeaz</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div> -->
-
-
-      </div>
+</div>
