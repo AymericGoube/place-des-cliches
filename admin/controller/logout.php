@@ -14,6 +14,6 @@ $_SESSION = array();
 session_destroy();
 
 // on est redirige vers la page d'accueil
-header("Location: http://localhost/place-des-cliches/admin/index.php");
+header("Location: ../index.php");
 
  ?>

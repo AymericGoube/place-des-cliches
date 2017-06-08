@@ -1,64 +1,24 @@
+.arrowUp {
+  display: none;
+  position: absolute;
+  position: fixed;
+  left: 95%;
+  top: 85%;
+  color: black; }
+
 footer {
-  font-family: 'Raleway', sans-serif;
-  height: 45em;
-  width: 100%;
-  background-color: #FFC0ED;
-  font-weight: normal;
-  font-size: 14px;
-  letter-spacing: 0em; }
-  footer .container {
-    width: 90%; }
-  footer .row {
-    padding-top: 3em; }
-  footer h5 {
-    text-align: center;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 17px !important; }
-  footer li {
-    border-top: 1px solid #eee;
-    border-right: 1px solid #eee;
-    border-left: 1px solid #eee;
-    border-bottom: 1px solid #eee; }
-    footer li a {
-      padding: 7px;
-      color: black;
-      font-size: 9px;
-      font-weight: 500;
-      letter-spacing: 0.3px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center; }
-    footer li #blue:hover {
-      background-color: #3B5998;
-      transition: background-color 0.5s;
-      color: white; }
-    footer li #skyblue:hover {
-      background-color: #00ACED;
-      transition: background-color 0.5s;
-      color: white; }
-  footer .instagramfooter .img1 {
-    height: 200px;
-    background-image: url(../img/classe.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.8;
-    transition: filter 0.3s; }
-  footer .instagramfooter .img1:hover {
-    filter: brightness(30%); }
-  footer img {
-    height: 150px;
-    width: 150px;
-    padding-bottom: 3em; }
-  footer .copyright {
-    text-align: center;
-    border-top: 1px solid #eee;
-    padding-top: 30px !important; }
-    footer .copyright span {
-      color: #00ACED; }
-  .no-margin{
-      margin: 0;
-  }
+  margin-top: 5%;
+  height: 300px;
+  background-color: #558ED5;
+  text-align: center; }
+
+li {
+  list-style: none; }
+  li a {
+    color: black; }
+
+.Us {
+  margin-top: 7%;
+  text-align: center; }
+
 /*# sourceMappingURL=footer.css.map */

@@ -40,7 +40,7 @@ if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
         $_SESSION['identifiant'] = $connectedAdmin['identifiant'];
         $_SESSION['password'] = $connectedAdmin['password'];
         // on est redirige vers la page des ateliers
-        header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
+        header('Location: ateliers.php');
 
     }
 }

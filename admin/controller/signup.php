@@ -20,7 +20,9 @@ if(isset($_POST['nvidentifiant'], $_POST['nvpassword'], $_POST['nvsubmit'])) {
             'password'=> $nvpassword
         ));
 
-        header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
+
+    header('Location: ateliers.php');
+
 
     }else{
         echo "l'identifiant nest pas disponible";

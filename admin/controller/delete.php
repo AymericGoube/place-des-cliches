@@ -9,5 +9,5 @@ if(isset($_GET['id'])){
     ));
 }
 
-header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
+header('Location: ../ateliers.php');
  ?>
