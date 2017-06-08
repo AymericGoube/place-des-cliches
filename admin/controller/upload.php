@@ -66,7 +66,7 @@ if(isset($_POST['atelier'], $_POST['activite'], $_POST['goals'], $_POST['duratio
           'image'=>$chemin
         ))
       ) {
-        echo "<p>la base de donné a été mise à jour</p>";
+        echo "<p>la base de données a été mise à jour</p>";
       } else {
         echo "<p>une erreur est survenue</p>";
       }

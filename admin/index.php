@@ -21,7 +21,7 @@
         //} else {?>
         <div class="form">
         <form class="formAdmin" action="" method="post">
-            <img class="logo" src="../views/img/logo.png" width="150px" alt="">
+            <img class="logo" src="../views/img/logo.png" width="100px" alt="">
             <label for="identifiant">Identifiant :</label>
             <input id="identifiant" type="text" name="identifiant" value="">
             <label for="password">Mot de passe :</label>
@@ -32,7 +32,7 @@
         </form>
 
         <form class="createAdmin" action="" method="post">
-            <img class="logo" src="../views/img/logo.png" width="150px" alt="">
+            <img class="logo" src="../views/img/logo.png" width="100px" alt="">
             <label for="nvidentifiant">Identifiant :</label>
             <input id="nvidentifiant" type="text" name="nvidentifiant" value="">
             <label for="nvpassword">Mot de passe :</label>

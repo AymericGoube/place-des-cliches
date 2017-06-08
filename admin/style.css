@@ -47,6 +47,14 @@ input, label {
     margin-top: 60px;
 }
 
+.btn-danger {
+    margin-left: 37em;
+    margin-top: -30em;
+}
+
+.deleteAccount {
+    margin-top: 10em;
+}
 
 
 
