@@ -2,12 +2,12 @@
 session_start();
 require '../../model/database.php';
 
-if(isset($_GET['id'])){
+if(isset($_GET['identifiant'])){
 if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
      $identifiant = htmlspecialchars($_POST['identifiant']);
      $password    = htmlspecialchars($_POST['password']);
      $settings = $bdd->prepare('UPDATE admins SET identifiant = :nvidentifiant, password = :nvpassword
-          WHERE id = :id');
+          WHERE identifiant = :identifiant');
 
      $nvidentifiant = $identifiant;
      $nvpassword = $password;
@@ -15,7 +15,7 @@ if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
      $settings->execute(array(
       'nvidentifiant' => $nvidentifiant,
       'nvpassword'    => $nvpassword,
-      'id' => $_GET['id']
+      'identifiant' => $_GET['identifiant']
 ));
      echo '<div class="alert alert-success alert-dismissable"><button type="button"
  class="close" data-dismiss="alert">&times;</button><strong>Les identifiants ont ete modifie
@@ -23,9 +23,9 @@ if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
 }
 }
 
-$update_settings = $bdd->prepare('SELECT * FROM admins WHERE id = :id ');
+$update_settings = $bdd->prepare('SELECT * FROM admins WHERE identifiant = :identifiant ');
 $update_settings->execute(array(
-     'id' => $_GET['id']
+     'identifiant' => $_GET['identifiant']
 ));
 
 
@@ -46,6 +46,7 @@ $update_settings->execute(array(
           <?php require 'nav2.php'; ?>
           <!-- <img src="../../views/img/logo.png" width="100px" alt=""> -->
           <?php while($reponse = $update_settings->fetch()){ ?>
+             <div class="form">
          <form class="settingsForm" action="" method="post">
               <label for="Identifiant">Votre Identifiant</label>
               <input type="text" name="identifiant" value="<?php echo $reponse['identifiant']; ?>">
@@ -53,9 +54,10 @@ $update_settings->execute(array(
               <input type="text" name="password" value="<?php echo $reponse['password']; ?>">
               <input type="submit" name="submit" value="modifier mes identifiants">
          </form>
+         </div>
          <?php } $update_settings->closeCursor(); ?>
 
-         <?php echo '<a href="deletesettings.php?id=' . $_SESSION['id'] . '" class="btn btn-danger">Supprimer votre compte</a>'; ?>
+         <?php echo '<a href="deletesettings.php?identifiant=' . $_SESSION['identifiant'] . '" class="btn btn-danger">Supprimer votre compte</a>'; ?>
 
          <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
          <script type="text/javascript" src="../../views/lib/bootstrap/js/bootstrap.min.js"></script>

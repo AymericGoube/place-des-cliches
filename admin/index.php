@@ -19,11 +19,11 @@
         // header('Location: http://localhost/place-des-cliches/admin/ateliers.php');
 
         //} else {?>
-        <div class="form">
+        <div class="formConnect">
         <form class="formAdmin" action="" method="post">
             <img class="logo" src="../views/img/logo.png" width="100px" alt="">
             <label for="identifiant">Identifiant :</label>
-            <input id="identifiant" type="text" name="identifiant" value="">
+            <input id="identifiant" type="text" name="identifiant" value="" placeholder="identifiant">
             <label for="password">Mot de passe :</label>
             <input id="password" type="password" name="password" value="" placeholder="password">
             <label for="hope">Se souvenir de moi</label>
@@ -34,7 +34,7 @@
         <form class="createAdmin" action="" method="post">
             <img class="logo" src="../views/img/logo.png" width="100px" alt="">
             <label for="nvidentifiant">Identifiant :</label>
-            <input id="nvidentifiant" type="text" name="nvidentifiant" value="">
+            <input id="nvidentifiant" type="text" name="nvidentifiant" value="" placeholder="identifiant">
             <label for="nvpassword">Mot de passe :</label>
             <input id="nvpassword" type="password" name="nvpassword" value="" placeholder="password">
             <label for="remember">Se souvenir de moi</label>

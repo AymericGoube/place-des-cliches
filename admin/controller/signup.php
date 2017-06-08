@@ -7,9 +7,9 @@ if(isset($_POST['nvidentifiant'], $_POST['nvpassword'], $_POST['nvsubmit'])) {
 
     $nvidentifiant = htmlspecialchars($_POST['nvidentifiant']);
     $nvpassword = htmlspecialchars($_POST['nvpassword']);
-    $req = $bdd->query("SELECT * FROM admins WHERE identifiant = :nvidentifiant ");
-    $reponse = $req->fetchAll();
-    if(empty($reponse)){
+    // $req = $bdd->query("SELECT * FROM admins WHERE identifiant = :nvidentifiant ");
+    // $reponse = $req->fetchAll();
+    // if(empty($reponse)){
         $req = $bdd->prepare('INSERT INTO admins (identifiant, password) VALUES(:identifiant, :password)');
 
         $_SESSION['identifiant'] = $nvidentifiant;
@@ -23,11 +23,11 @@ if(isset($_POST['nvidentifiant'], $_POST['nvpassword'], $_POST['nvsubmit'])) {
 
     header('Location: ateliers.php');
 
-
-    }else{
-        echo "l'identifiant nest pas disponible";
-    }
 }
+    // }else{
+    //     echo "l'identifiant nest pas disponible";
+    // }
+
 
 
 

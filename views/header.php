@@ -1,6 +1,6 @@
 <nav id="nav">
-      <a href="#" id="scrollspy1">Nous rejoindre</a>
-      <a href="#" id="scrollspy1">Se connecter</a>
+      <a href="views/new_volunteer.php" data-toggle="modal" data-target="#myModal" id="scrollspy1">Nous rejoindre</a>
+      <a href="views/join_team.php" id="scrollspy1">Se connecter</a>
 </nav>
 <nav id="nav2">
 <ul>

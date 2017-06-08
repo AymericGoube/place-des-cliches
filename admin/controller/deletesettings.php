@@ -22,7 +22,7 @@ if(isset($_GET['identifiant'])){
         <div class="deleteAccount">
             <h1 class="confirmation">Voulez-vous supprimer définitivement votre compte ?</h1>
             <form class="deleteAccount2" action="" method="post">
-                <button class="btn btn-danger " type="submit" name="delete" >Supprimer mon compte definitivement</button>
+                <button class="btn btn-inverse " type="submit" name="delete" >Supprimer mon compte definitivement</button>
             </form>
         </div>
 
