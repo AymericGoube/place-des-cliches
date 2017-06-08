@@ -71,6 +71,8 @@ body,html{
 .carte{
   height: 350px;
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 #carte1{
   margin-left: 5%;
@@ -81,40 +83,47 @@ body,html{
 #photo1{
   background-image: url('../img/Cecile.JPG');
   height: 200px;
+  background-position: center;
   background-size: cover;
 }
 #photo2{
   background-image: url('../img/Fania.jpg');
   height: 200px;
   background-size: cover;
+    background-position: center;
 }
 #photo3{
   background-image: url('../img/Fatime.jpg');
   height: 200px;
   background-size: cover;
+    background-position: center;
 }
 #photo4{
   background-image: url('../img/Helene.jpg');
   height: 200px;
   background-size: cover;
+    background-position: center;
 }
 #photo5{
   background-image: url('../img/Samantha.jpg');
   background-size: cover;
+    background-position: center;
   height: 200px;
 }
 #photo6{
   background-image: url('../img/Solange.jpg');
   background-size: cover;
+    background-position: center;
 height: 200px;
 }
 #photo7{
   background-image: url('../img/Sandra.jpg');
   background-size: cover;
+    background-position: center;
 height: 200px;
 }
 .imgtemoignage{
-  background-image: url('../img/Helene.jpg');
+  background-image: url('../img/picto1.png');
   height: 300px;
   background-size: cover;
 }
@@ -124,4 +133,112 @@ height: 200px;
     font-size: 50px;
     font-weight: bold;
   }
+}
+
+.btn1{
+  padding: 5px;
+  border: 1px solid black;
+}
+.btn2{
+  padding: 5px;
+  border: 1px solid black;
+}
+.btn3{
+  padding: 5px;
+  border: 1px solid black;
+}
+.btn4{
+  padding: 5px;
+  border: 1px solid black;
+}
+.btn5{
+  padding: 5px;
+  border: 1px solid black;
+}
+.btn6{
+  padding: 5px;
+  border: 1px solid black;
+}
+.btn7{
+  padding: 5px;
+  border: 1px solid black;
+}
+.nom{
+  display: none;
+  font-weight: normal;
+  font-size: 15px;
+}
+.textnom{
+  display: none;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  height: 0px;
+  animation: yo 1s ease forwards;
+  bottom: 42%;
+}
+.textnom2{
+  display: none;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  height: 0px;
+  animation: yo 1s ease forwards;
+  bottom: 42%;
+}
+.textnom3{
+  display: none;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  height: 0px;
+  animation: yo 1s ease forwards;
+  bottom: 42%;
+}
+.textnom4{
+  display: none;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  height: 0px;
+  animation: yo 1s ease forwards;
+  bottom: 42%;
+}
+.textnom5{
+  display: none;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  height: 0px;
+  animation: yo 1s ease forwards;
+  bottom: 42%;
+}
+.textnom6{
+  display: none;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  height: 0px;
+  animation: yo 1s ease forwards;
+  bottom: 42%;
+}
+.textnom7{
+  display: none;
+  background-color: white;
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  height: 0px;
+  animation: yo 1s ease forwards;
+  bottom: 42%;
+}
+@keyframes yo{
+  from{ height: 0px;}
+  to{height: 210px;}
 }

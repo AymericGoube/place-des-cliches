@@ -25,6 +25,8 @@
 
 <script src="views/js/scrollspy.js">
 </script>
+<script src="views/js/slide.js">
+</script>
 
 </body>
 </html>
