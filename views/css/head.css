@@ -35,7 +35,8 @@ html, body {
 
 #nav2 {
   height: 70px;
-  width: 100%; }
+  width: 100%;
+  background-color: white; }
   #nav2 ul {
     height: 70px;
     display: flex;
@@ -64,4 +65,4 @@ html, body {
   background-repeat: no-repeat;
   background-position: center; }
 
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=head.css.map */
