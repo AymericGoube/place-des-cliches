@@ -5,15 +5,15 @@ require '../model/database.php';
 
 
 
-// on declare les variable de connexion et on les securise
-$identifiant = @htmlspecialchars($_POST['identifiant']);
-$password = @htmlspecialchars($_POST['password']);
-
-// on prepare la requete de connexion
-$req = $bdd->prepare("SELECT identifiant, password FROM admins WHERE identifiant = :identifiant AND password = :password");
-
 // si le formulaire est rempli et valide
 if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
+
+    // on declare les variable de connexion et on les securise
+    $identifiant = htmlspecialchars($_POST['identifiant']);
+    $password = htmlspecialchars($_POST['password']);
+
+    // on prepare la requete de connexion
+    $req = $bdd->prepare("SELECT identifiant, password FROM admins WHERE identifiant = :identifiant AND password = :password");
 
 // alors on execute la requete
     $req->execute(array(
@@ -36,6 +36,7 @@ if(isset($_POST['identifiant'], $_POST['password'], $_POST['submit'])){
     // Sinon on entre dans la session et la connexion se fait
     }else{
         session_start();
+        $_SESSION['id'] = $connectedAdmin['id'];
         $_SESSION['identifiant'] = $connectedAdmin['identifiant'];
         $_SESSION['password'] = $connectedAdmin['password'];
         // on est redirige vers la page des ateliers

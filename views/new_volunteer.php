@@ -1,96 +1,26 @@
-    <form class="form-group" action="view.php" method="post">
-        <div class="form-content">
-            <input type="text" class="formControl" name="name" placeholder="Nom">
-            <input type="text" class="formControl" name="firstname" placeholder="Prenom">
-        </div>
-        <div class="form-content">
-            <input type="text" class="formControl" name="password" placeholder="Telephone">
-            <input type="email" class="formControl" name="password" placeholder="Email">
-        </div>
-        <button  class="btn-send" value="connexion"  type="submit">ENVOYER</button><br>
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Nous rejoindre</title>
+            <link rel="stylesheet" href="css/new_volunteer.css">
+        </head>
+        <body>
+            <div class="form">
+            <form class="form-group" action="view.php" method="post">
+                <img class="logo" src="../views/img/slogan.png" width="200px" alt="">
+
+                    <input type="text" class="formControl" name="name" placeholder="Nom">
+                    <input type="text" class="formControl" name="firstname" placeholder="Prenom">
 
 
-    </form>
+                    <input type="text" class="formControl" name="password" placeholder="Telephone">
+                    <input type="email" class="formControl" name="password" placeholder="Email">
 
+                <button  class="btn-send" value="connexion"  type="submit">ENVOYER</button><br>
 
-<style >
-
-    .form-content {
-        display: flex;
-        justify-content: space-between;
-    }
-    input {
-
-        border: 1px solid lightgrey!important;
-        width: 45%!important;
-        height: 35px!important;
-        border-radius: 5px!important;
-        background-color: white!important;
-        }
-
-    input::placeholder{
-        color : black;
-    }
-            .btn-send {
-          color: white;
-          text-align: center;
-          border-radius: 4px;
-          font-weight: bold;
-          background: #323232;
-          width: 100%;
-        }
-
-        .btn-send:hover {
-          opacity: 1;
-          background: #323232;
-          text-decoration: none;
-          color: white;
-        }
-
-        .btn-facebook {
-          color: white;
-          text-align: center;
-          border-radius: 4px;
-          font-weight: bold;
-          background: #3B5998;
-          margin-top: -8em;
-        }
-
-        .btn-facebook:hover {
-          opacity: 1;
-          background: ##3B5998;
-          text-decoration: none;
-          color: white;
-        }
-        .btn-google {
-          color: white;
-          text-align: center;
-          border-radius: 4px;
-          font-weight: bold;
-          background: #1266F1;
-          margin-top: -8em;
-        }
-
-        .btn-google:hover {
-          opacity: 1;
-          background: #1266F1;
-          text-decoration: none;
-          color: white;
-        }
-
-        .formControl {
-            width: 100%;
-            background-color: rgb(239,239,239);
-            border: none;
-        }
-
-        .form-group{
-          margin-top: -1em;
-        }
-
-        .continue {
-            color: black;
-        }
-
-
-</style>
+            </form>
+            </div>
+        </body>
+    </html>

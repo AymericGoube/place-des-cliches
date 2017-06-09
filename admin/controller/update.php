@@ -14,7 +14,7 @@ $place = @htmlspecialchars($_POST['place']);
 if(isset($_GET['id'])){
 
     if(isset($atelier , $activite, $goals, $duration, $dateAtelier, $place, $_FILES['image'], $_POST['submit'])){
-        
+
 
             $nvatelier = $atelier;
             $nvactivite = $activite;
@@ -86,7 +86,7 @@ if(isset($_GET['id'])){
   }
 }
 
-            
+
 
     }
 }
@@ -112,6 +112,7 @@ $update->execute(array(
     <body>
         <?php require 'nav2.php'; ?>
         <?php while($updateForm = $update->fetch()){ ?>
+        <div class="form">
         <form class="updateForm" action="" method="post" enctype="multipart/form-data">
             <label for="atelier">Atelier</label>
             <input type="text" name="atelier" value="<?php echo $updateForm['atelier'];?>">
@@ -130,6 +131,7 @@ $update->execute(array(
             <input type="file" name="image" value="<?php echo $updateForm['image']; ?>">
             <input type="submit" name="submit" value="Valider">
         </form>
+        </div>
         <?php }
 
         $update->closeCursor(); ?>

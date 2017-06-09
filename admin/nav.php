@@ -20,7 +20,7 @@ $admin_connected = isset($_SESSION['identifiant'], $_SESSION['password']);
               </button>
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
-                   <img class="collogo" src="../views/img/logo.png" width="100px" alt="">
+                   <img class="collogo" src="../views/img/logo.png" width="70px" alt="">
                 <ul class="nav navbar-nav">
                    <li><a href="ateliers.php">Liste des ateliers</a></li>
                     <?php if($admin_connected) { ?>

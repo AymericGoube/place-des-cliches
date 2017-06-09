@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding-left: 2em;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+.form-group {
+    border: 1px solid white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    background-color: #65A0DC;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+input {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-send {
+    margin-top: 15px;
+    padding: 12px;
+
+}

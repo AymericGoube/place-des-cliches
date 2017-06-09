@@ -1,23 +1,90 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: arial;
 }
 
-.updateForm, .createForm, .settingsForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.collogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 25px;
+
+}
+
+li a {
+  color: black!important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: white!important;
 }
 
 .form {
     display: flex;
-    justify-content: space-around;
-    height: 100vh;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    height: 100vh;
+    }
+
+ .updateForm, .createForm {
+    margin-top: 35em;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    box-shadow:10px 10px 10px 10px #888888;
 }
+
+ .updateForm input {
+  border: 1px solid lightgrey;
+}
+
+.createForm input {
+ border: 1px solid lightgrey;
+}
+
+.settingsForm {
+  margin-top: 5em;
+  border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color:white;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.settingsForm input {
+  border: 1px solid lightgrey;
+}
+
+input {
+    padding: 10px;
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.formConnect {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  }
+
+  input[value] {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
 
 .createAdmin{
     display: flex;
@@ -25,33 +92,65 @@ body {
     border: 1px solid lightgrey;
     padding: 50px;
     border-radius: 10px;
+    background-color: black;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .formAdmin {
     display: flex;
     flex-direction: column;
-    border: 1px solid lightgrey;
+    border: 1px solid black;
     padding: 50px;
     border-radius: 10px;
+    background-color:white;
+    box-shadow: 10px 10px 5px #888888;
 }
 
-input, label {
-    flex-direction: column;
+.formAdmin input {
+  border: 1px solid lightgrey;
 }
 
 
-
-.createForm {margin-top: 100px;}
 
 .message {
     margin-top: 60px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight:lighter;
 }
 #atelier{
   width: 250px;
 }
 
-textarea{resize: none;
+
+.btn-danger {
+    background-color: black!important;
+    color: white!important;
+    border: 1px solid white;
+    margin-left: 37em;
+    margin-top: -10em;
 }
+
+.btn-default {
+    background-color: black!important;
+    color: white!important;
+    border: 1px solid white;
+
+}
+
+.btn-inverse {
+  background-color: black!important;
+  color: white!important;
+  margin-left: 34em;
+  margin-top: 3em;
+  padding: 20px;
+}
+
+.deleteAccount {
+    margin-top: 10em;
+}
+
+
 
 h1 {
     text-align: center;

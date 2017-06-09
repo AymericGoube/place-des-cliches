@@ -46,6 +46,7 @@ $update_settings->execute(array(
           <?php require 'nav2.php'; ?>
           <!-- <img src="../../views/img/logo.png" width="100px" alt=""> -->
           <?php while($reponse = $update_settings->fetch()){ ?>
+             <div class="form">
          <form class="settingsForm" action="" method="post">
               <label for="Identifiant">Votre Identifiant</label>
               <input type="text" name="identifiant" value="<?php echo $reponse['identifiant']; ?>">
@@ -53,7 +54,11 @@ $update_settings->execute(array(
               <input type="text" name="password" value="<?php echo $reponse['password']; ?>">
               <input type="submit" name="submit" value="modifier mes identifiants">
          </form>
+         </div>
          <?php } $update_settings->closeCursor(); ?>
+
+         <?php echo '<a href="deletesettings.php?identifiant=' . $_SESSION['identifiant'] . '" class="btn btn-danger">Supprimer votre compte</a>'; ?>
+
          <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
          <script type="text/javascript" src="../../views/lib/bootstrap/js/bootstrap.min.js"></script>
      </body>

@@ -24,11 +24,12 @@ session_start();
 
         ?>
         <?php if(isset($_SESSION['identifiant']) && (isset($_SESSION['password']))){
-            echo '<div class="message alert alert-success alert-dismissable"><button type="button" class="close"
+            echo '<div class="message alert alert-default alert-dismissable"><button type="button" class="close"
             data-dismiss="alert">&times;</button></button><strong>Bonjour , ' . $_SESSION['identifiant'] . '
             </strong></div>';
         } ?>
         <?php require 'controller/display.php'; ?>
+        <a href="controller/create.php" class="btn btn-default"><span class="glyphicon">&#x2b;</span>Ajouter un atelier </a>
         <table class="table table-bordered table-striped table-responsive">
             <thead>
                 <tr>
