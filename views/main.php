@@ -46,9 +46,9 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-2 carte" id="carte1">
+        <div class="col-md-3 carte" id="carte1">
             <div class="textnom">
-                <p>salut </p>
+                <p class="presentation">salut </p>
             </div>
             <div class="col-md-12" id="photo1">
             </div>
@@ -56,27 +56,27 @@
             <i class="fa fa-plus btn1" aria-hidden="true" id="btn1"></i>
 
         </div>
-        <div class="col-md-2 carte col-md-offset-1">
+        <div class="col-md-3 carte ">
             <div class="textnom2">
-                <p>salut</p>
+                <p class="presentation">salut</p>
             </div>
             <div class="col-md-12" id="photo2">
             </div>
             <p>Fania</p>
             <i class="fa fa-plus btn2" aria-hidden="true"></i>
         </div>
-        <div class="col-md-2 carte col-md-offset-1">
+        <div class="col-md-3 carte ">
             <div class="textnom3">
-                <p>salut</p>
+                <p class="presentation">salut</p>
             </div>
             <div class="col-md-12" id="photo3">
             </div>
             <p>Fatima</p>
             <i class="fa fa-plus btn3" aria-hidden="true"></i>
         </div>
-        <div class="col-md-2 carte col-md-offset-1">
+        <div class="col-md-3 carte">
             <div class="textnom4">
-                <p>salut</p>
+                <p class="presentation">salut</p>
             </div>
 
             <div class="col-md-12" id="photo4">
@@ -86,9 +86,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-2 carte col-md-offset-2" id="carte2">
+        <div class="col-md-3 carte col-md-offset-1">
             <div class="textnom5">
-                <p>salut</p>
+                <p class="presentation">salut </p>
             </div>
             <div class="col-md-12" id="photo5">
             </div>
@@ -96,18 +96,18 @@
             <i class="fa fa-plus btn5" aria-hidden="true"></i>
 
         </div>
-        <div class="col-md-2 carte col-md-offset-1">
+        <div class="col-md-3 carte" id="carte2">
             <div class="textnom6">
-                <p>salut</p>
+                <p class="presentation">salut </p>
             </div>
             <div class="col-md-12" id="photo6">
             </div>
             <p>Solange</p>
             <i class="fa fa-plus btn6" aria-hidden="true"></i>
         </div>
-        <div class="col-md-2 carte col-md-offset-1">
+        <div class="col-md-3 carte" id="carte3">
             <div class="textnom7">
-                <p>salut</p>
+                <p class="presentation">salut </p>
             </div>
             <div class="col-md-12" id="photo7">
             </div>

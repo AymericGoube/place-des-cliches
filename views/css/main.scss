@@ -75,52 +75,63 @@ body,html{
   font-size: 20px;
 }
 #carte1{
-  margin-left: 5%;
+
 }
 #carte2{
-
+  margin-left: 4%;
+}
+#carte3{
+  margin-left: 4%;
 }
 #photo1{
   background-image: url('../img/Cecile.JPG');
-  height: 200px;
+  height: 262px;
+  border-radius: 10px;
   background-position: center;
   background-size: cover;
+
 }
 #photo2{
   background-image: url('../img/Fania.jpg');
-  height: 200px;
+  height: 262px;
   background-size: cover;
-    background-position: center;
+  background-position: center;
+  border-radius: 10px;
 }
 #photo3{
   background-image: url('../img/Fatime.jpg');
-  height: 200px;
+  height: 262px;
+  border-radius: 10px;
   background-size: cover;
-    background-position: center;
+  background-position: center;
 }
 #photo4{
   background-image: url('../img/Helene.jpg');
-  height: 200px;
+  height: 262px;
+  border-radius: 10px;
   background-size: cover;
-    background-position: center;
+  background-position: center;
 }
 #photo5{
   background-image: url('../img/Samantha.jpg');
   background-size: cover;
-    background-position: center;
-  height: 200px;
+  background-position: center;
+  height: 262px;
+  border-radius: 10px;
 }
 #photo6{
   background-image: url('../img/Solange.jpg');
   background-size: cover;
-    background-position: center;
-height: 200px;
+  background-position: center;
+  height: 262px;
+  border-radius: 10px;
 }
 #photo7{
   background-image: url('../img/Sandra.jpg');
   background-size: cover;
-    background-position: center;
-height: 200px;
+  background-position: center;
+  height: 262px;
+  border-radius: 10px;
 }
 .imgtemoignage{
   background-image: url('../img/picto1.png');
@@ -168,77 +179,81 @@ height: 200px;
   font-weight: normal;
   font-size: 15px;
 }
+.presentation{
+  font-size: 15px;
+  text-align: left;
+}
 .textnom{
   display: none;
   background-color: white;
   z-index: 100;
   position: absolute;
-  width: 165px;
+  width: 100%;
   height: 0px;
   animation: yo 1s ease forwards;
-  bottom: 42%;
+  bottom: 24%;
 }
 .textnom2{
   display: none;
   background-color: white;
   z-index: 100;
   position: absolute;
-  width: 165px;
+  width: 100%;
   height: 0px;
   animation: yo 1s ease forwards;
-  bottom: 42%;
+  bottom: 24%;
 }
 .textnom3{
   display: none;
   background-color: white;
   z-index: 100;
   position: absolute;
-  width: 165px;
+  width: 100%;
   height: 0px;
   animation: yo 1s ease forwards;
-  bottom: 42%;
+  bottom: 24%;
 }
 .textnom4{
   display: none;
   background-color: white;
   z-index: 100;
   position: absolute;
-  width: 165px;
+  width: 100%;
   height: 0px;
   animation: yo 1s ease forwards;
-  bottom: 42%;
+  bottom: 24%;
 }
 .textnom5{
   display: none;
   background-color: white;
   z-index: 100;
   position: absolute;
-  width: 165px;
+  width: 100%;
   height: 0px;
   animation: yo 1s ease forwards;
-  bottom: 42%;
+  bottom: 24%;
 }
 .textnom6{
   display: none;
   background-color: white;
   z-index: 100;
   position: absolute;
-  width: 165px;
+  width: 100%;
   height: 0px;
   animation: yo 1s ease forwards;
-  bottom: 42%;
+  bottom: 24%;
 }
 .textnom7{
   display: none;
   background-color: white;
   z-index: 100;
   position: absolute;
-  width: 165px;
+  width: 100%;
   height: 0px;
   animation: yo 1s ease forwards;
-  bottom: 42%;
+  bottom: 24%;
 }
 @keyframes yo{
   from{ height: 0px;}
-  to{height: 210px;}
+  to{height: 270px;}
 }
